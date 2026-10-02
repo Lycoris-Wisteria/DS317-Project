@@ -1,4 +1,4 @@
 # DS317--Project
-- Topic: ST-GUGEN: Mạng tăng cường đồ thị người dùng theo không- thời gian cho bài toán cá nhân hóa đề xuất POI trong lĩnh vực du lịch
+- Topic: ST-GUGEN: Spatio-Temporal Global User Graph Enhanced Network for personalized POI Recommendation in Tourism
 - In-scope: personalized recommendation
 - Business: Travel
