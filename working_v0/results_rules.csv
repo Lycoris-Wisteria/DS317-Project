@@ -1,0 +1,62 @@
+﻿table,rule_id,aspect,level,scope,type,from_report,desc,n_units,n_violations,n_flagged,score,good,bad,grade,action,top_values
+business,C1,Đầy đủ,star,nội bảng,not_null,True,"business_id, name, latitude, longitude, stars, review_count, is_open ≠ null",1052422,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+business,C2,Đầy đủ,general,nội bảng,not_null,True,"city, state, postal_code, categories ≠ null",601384,176,0,0.9997073417317388,0.98,0.95,Tốt,Dùng trực tiếp,postal_code: ''×73 | categories: nan×103
+business,C7,Đầy đủ,report,nội bảng,not_null,True,"tỷ lệ thiếu của address, hours, attributes (chỉ báo cáo)",451038,42094,0,0.9066730519379742,0.98,0.95,Chỉ báo cáo,Chỉ báo cáo,address: ''×5127 | hours: nan×23223 | attributes: nan×13744
+business,V0,Hợp lệ,general,nội bảng,dtype,False,"(bổ sung) ô số phải ép được số, nếu không V2-V5 sẽ bỏ qua ô đó",751730,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+business,V1,Hợp lệ,star,nội bảng,regex,True,business_id khớp chuỗi 22 ký tự [A-Za-z0-9_-],150346,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+business,V2,Hợp lệ,star,nội bảng,range,True,"latitude ∈ [27; 54], longitude ∈ [-121; -74]",300692,1,0,0.9999966743378607,0.999,0.99,Tốt,Xử lý mọi vi phạm (quy tắc ★),longitude: '-73.2004570502'×1
+business,V3,Hợp lệ,star,nội bảng,enum,True,"stars ∈ {1; 1,5; …; 5}",150346,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+business,V4,Hợp lệ,star,nội bảng,range,True,review_count là số nguyên ≥ 0,150346,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+business,V5,Hợp lệ,star,nội bảng,enum,True,"is_open ∈ {0, 1}",150346,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+business,V8,Hợp lệ,general,nội bảng,regex,True,state là chuỗi 2 ký tự [A-Z] (ngoại lệ được ghi nhận riêng ở cột top_values),150346,1,0,0.9999933486757213,0.99,0.95,Tốt,Dùng trực tiếp,state: 'XMS'×1
+business,V10,Hợp lệ,general,nội bảng,hours_format,True,"hours có dạng H:M-H:M; khung 0:0-0:0 chỉ gắn nhãn 'cần kiểm chứng' (n_flagged), không tính lỗi",127123,0,31674,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+business,V12a,Hợp lệ,general,nội bảng,str_type,True,postal_code giữ kiểu chuỗi,150346,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+business,V12b,Hợp lệ,general,nội bảng,json_object,True,attributes parse được thành object,136602,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+business,U1,Duy nhất,star,nội bảng,unique,True,business_id không trùng (Tốt = 1),150346,0,0,1.0,1.0,0.99,Tốt,Dùng trực tiếp,
+business,U3,Duy nhất,general,nội bảng,unique,True,"bộ (name, address, postal_code) không lặp; name trùng riêng lẻ không tính lỗi",145202,136,0,0.9990633737827302,0.99,0.95,Tốt,Dùng trực tiếp,
+business,S5a,Nhất quán,general,nội bảng,city_spelling,True,"city chỉ có một cách viết chuẩn sau chuẩn hóa (trim, lower, bỏ dấu)",150346,1791,0,0.988087478216913,0.99,0.95,Chú ý,"Ghi nhận, gắn cờ hoặc xử lý nhẹ","city: 'St Petersburg'×387; 'St Louis'×357; 'King Of Prussia'×134; 'St. Charles'×104; ""Land O' Lakes""×97"
+business,S5b,Nhất quán,general,nội bảng,city_state,True,"city thuộc đúng state (cặp city–state không hiếm; city >= 20 dòng, cặp chiếm >= 1%)",147615,35,0,0.9997628967245876,0.99,0.95,Tốt,Dùng trực tiếp,city: 'Franklin'×4; 'Nashville'×3; 'Reno'×3; 'Eagle'×2; 'Philadelphia'×2
+business,S6,Nhất quán,report,liên bảng,ref_compare,True,"review_count so với số review trong file (chỉ báo cáo, chưa xếp hạng; kèm tổng và tỷ lệ)",150346,67362,0,0.5519534939406436,0.99,0.95,Chỉ báo cáo,Chỉ báo cáo,review_count: '5'×2020; '6'×1757; '7'×1711; '8'×1607; '9'×1599
+business,S7,Nhất quán,general,liên bảng,ref_compare,True,"stars lệch ≤ 0,5 so với trung bình review.stars của POI trong file review",150346,440,0,0.9970734173173879,0.9,0.8,Tốt,Dùng trực tiếp,stars: '4.0'×105; '4.5'×82; '3.5'×57; '3.0'×43; '5.0'×42
+business,T4,Kịp thời,report,liên bảng,activity_rate,True,tỷ lệ POI is_open = 1 có ít nhất một review/tip/check-in trong 24 tháng trước T_ref (chỉ báo cáo),119698,14045,0,0.8826630353055189,0.99,0.95,Chỉ báo cáo,Chỉ báo cáo,is_open: '1'×14045
+checkin,C5,Đầy đủ,star,nội bảng,not_null,True,"business_id ≠ null, mốc check-in không rỗng",26713750,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+checkin,C8,Đầy đủ,report,liên bảng,coverage,True,độ phủ checkin/business (chỉ báo cáo),0,0,0,,0.98,0.95,Chỉ báo cáo,Chỉ báo cáo,
+checkin,V1,Hợp lệ,star,nội bảng,regex,True,business_id khớp chuỗi 22 ký tự,13356875,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+checkin,V6,Hợp lệ,star,nội bảng,dtype,True,mốc check-in đúng định dạng YYYY-MM-DD HH:MM:SS,13356875,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+checkin,U1,Duy nhất,star,nội bảng,unique,True,"cặp (business_id, checkin_time) không trùng (Tốt = 1)",13356875,3543,0,0.9997347433437836,1.0,0.99,Chú ý,Xử lý mọi vi phạm (quy tắc ★),
+checkin,S1,Nhất quán,star,liên bảng,fk,True,business_id ∈ business,13356875,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+checkin,T3,Kịp thời,star,nội bảng,in_window,True,mọi mốc check-in ≤ T_ref,13356875,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+review,C3,Đầy đủ,star,nội bảng,not_null,True,"cả 9 trường ≠ null, text dài ≥ 1",62912520,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+review,V0,Hợp lệ,general,nội bảng,dtype,False,(bổ sung) ô số phải ép được số,27961120,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+review,V1,Hợp lệ,star,nội bảng,regex,True,"review_id, user_id, business_id khớp chuỗi 22 ký tự",20970840,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+review,V3,Hợp lệ,star,nội bảng,enum,True,review.stars ∈ {1…5} (số nguyên),6990280,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+review,V4,Hợp lệ,star,nội bảng,range,True,"useful, funny, cool là số nguyên ≥ 0",20970840,7,0,0.9999996662031659,0.999,0.99,Tốt,Xử lý mọi vi phạm (quy tắc ★),useful: '-1'×4 | funny: '-1'×2 | cool: '-1'×1
+review,V6,Hợp lệ,star,nội bảng,dtype,True,date đúng định dạng YYYY-MM-DD HH:MM:SS,6990280,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+review,U1,Duy nhất,star,nội bảng,unique,True,review_id không trùng (Tốt = 1),6990280,0,0,1.0,1.0,0.99,Tốt,Dùng trực tiếp,
+review,U4,Duy nhất,general,nội bảng,unique,True,"bộ (user_id, business_id, date) không lặp",6990280,25,0,0.9999964236053491,0.99,0.95,Tốt,Dùng trực tiếp,
+review,S1,Nhất quán,star,liên bảng,fk,True,business_id ∈ business; user_id ∈ user,13980560,33,0,0.9999976395795305,0.999,0.99,Tốt,Xử lý mọi vi phạm (quy tắc ★),user_id: 'lzpM_Vf2rKA4ivGtAIOH4w'×2; 'tquAg8GqbhN5k6Hkd23M0A'×1; '5iBVQ3OeK8lV4Z_4PXc1Xw'×1; 'u8cq-5zzD7dPSa3LR8rIMw'×1; '433BzxUeQAmRmK0g06UAfA'×1
+review,S2,Nhất quán,general,liên bảng,date_ge_lookup,True,review.date ≥ user.yelping_since của chính người viết,6990247,117,0,0.9999832623940184,0.99,0.95,Tốt,Dùng trực tiếp,date: '2011-04-29 10:22:44'×1; '2008-07-31 20:46:40'×1; '2009-02-17 20:09:48'×1; '2011-08-24 21:49:29'×1; '2013-07-03 01:58:57'×1
+review,T1,Kịp thời,star,nội bảng,in_window,True,review.date ∈ [T_start; T_ref],6990280,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,C4,Đầy đủ,star,nội bảng,not_null,True,"user_id, business_id, text, date ≠ null",3635660,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,V0,Hợp lệ,general,nội bảng,dtype,False,(bổ sung) ô số phải ép được số,908915,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+tip,V1,Hợp lệ,star,nội bảng,regex,True,"user_id, business_id khớp chuỗi 22 ký tự",1817830,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,V4,Hợp lệ,star,nội bảng,range,True,compliment_count là số nguyên ≥ 0,908915,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,V6,Hợp lệ,star,nội bảng,dtype,True,date đúng định dạng YYYY-MM-DD HH:MM:SS,908915,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,U2,Duy nhất,general,nội bảng,unique,True,"tip không có khóa riêng nên bộ (user_id, business_id, date, text) không lặp",908915,67,0,0.9999262857362899,0.99,0.95,Tốt,Dùng trực tiếp,
+tip,S1,Nhất quán,star,liên bảng,fk,True,business_id ∈ business; user_id ∈ user,1817830,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+tip,S2,Nhất quán,general,liên bảng,date_ge_lookup,True,tip.date ≥ user.yelping_since của chính người viết,908915,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+tip,T1,Kịp thời,star,nội bảng,in_window,True,tip.date ∈ [T_start; T_ref],908915,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,C6,Đầy đủ,star,nội bảng,not_null,True,"user_id, yelping_since, review_count, average_stars ≠ null",7951588,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,C7,Đầy đủ,report,nội bảng,not_null,True,tỷ lệ 'không có' của elite ('' ) và friends ('None' hoặc '[]') sau chuẩn hóa (chỉ báo cáo),3975794,2775250,0,0.30196333109814044,0.98,0.95,Chỉ báo cáo,Chỉ báo cáo,elite: ''×200000 | friends: '[]'×200000
+user,V0,Hợp lệ,general,nội bảng,dtype,False,(bổ sung) ô số phải ép được số,33794249,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+user,V1,Hợp lệ,star,nội bảng,regex,True,user_id khớp chuỗi 22 ký tự,1987897,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,V4,Hợp lệ,star,nội bảng,range,True,"review_count, useful, funny, cool, fans, compliment_* là số nguyên ≥ 0",31806352,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,V6,Hợp lệ,star,nội bảng,dtype,True,yelping_since đúng định dạng YYYY-MM-DD HH:MM:SS,1987897,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,V7,Hợp lệ,star,nội bảng,range,True,average_stars ∈ [1; 5],1987897,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,
+user,V9,Hợp lệ,general,nội bảng,regex,True,"elite là '' hoặc danh sách năm 4 chữ số (bắt lỗi dạng '20,20')",1987897,39929,0,0.9799139492639709,0.99,0.95,Chú ý,"Ghi nhận, gắn cờ hoặc xử lý nhẹ","elite: '2019,20,20,2021'×8058; '2018,2019,20,20,2021'×6701; '20,20,2021'×5061; '2017,2018,2019,20,20,2021'×4898; '2016,2017,2018,2019,20,20,...×3290"
+user,V11,Hợp lệ,general,nội bảng,id_list,True,"friends là danh sách rỗng ('None', '[]') hoặc mọi phần tử là user_id đúng định dạng 22 ký tự (thêm max_rows để lấy mẫu nếu RAM hạn chế)",1987897,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+user,U1,Duy nhất,star,nội bảng,unique,True,user_id không trùng (Tốt = 1),1987897,0,0,1.0,1.0,0.99,Tốt,Dùng trực tiếp,
+user,S3,Nhất quán,general,liên bảng,ref_compare,True,user.review_count ≥ số review của user đó có trong file review (file là tập con),1987897,17665,0,0.9911137247050527,0.99,0.95,Tốt,Dùng trực tiếp,review_count: '1'×5200; '2'×2924; '3'×1750; '4'×1403; '5'×914
+user,S4,Nhất quán,general,nội bảng,elite_years,True,elite: mỗi năm ≥ năm của yelping_since và ≤ 2022,90979,0,0,1.0,0.99,0.95,Tốt,Dùng trực tiếp,
+user,S8,Nhất quán,general,liên bảng,ref_compare,True,"average_stars lệch ≤ 0,5 so với trung bình review.stars của user trong file review",1987897,742635,0,0.6264217914710872,0.9,0.8,Tệ,Phải sửa / điền / loại trước khi dùng,average_stars: '3.0'×13481; '4.0'×10970; '3.67'×8970; '2.33'×4544; '3.5'×4093
+user,T2,Kịp thời,star,nội bảng,in_window,True,"user.yelping_since ∈ [2004-07-01; T_ref] (cận dưới là thời điểm Yelp thành lập 07/2004, sớm hơn T_start của review; cần nhóm xác nhận)",1987897,0,0,1.0,0.999,0.99,Tốt,Dùng trực tiếp,

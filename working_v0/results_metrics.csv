@@ -1,0 +1,3 @@
+﻿table,rule_id,metric,value,numerator,denominator,note
+business,S6,tổng giá trị / tổng tham chiếu,0.964983949140807,6745508.0,6990280.0,"Σ review_count (mỗi business_id một lần) so với Σ review_n_by_business; chênh 244,772"
+checkin,C8,độ phủ,0.8775092120841259,131930.0,150346.0,business_id khác nhau nằm trong business.business_id

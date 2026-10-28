@@ -1,0 +1,56 @@
+{
+  "label": "KQ_v0",
+  "run_at": "2026-10-28T07:59:06",
+  "version": "2.0.0",
+  "config_path": "config.yaml",
+  "config_sha256": "1f83eee8c825d215910e64decac7de39d0e9b1c8f5f2a4fa1a34e34d7cc89fc4",
+  "T_ref": "2022-01-19",
+  "T_start": "2005-02-16",
+  "thresholds": {
+    "star": {
+      "good": 0.999,
+      "bad": 0.99
+    },
+    "aspect": {
+      "Đầy đủ": {
+        "good": 0.98,
+        "bad": 0.95
+      },
+      "Hợp lệ": {
+        "good": 0.99,
+        "bad": 0.95
+      },
+      "Duy nhất": {
+        "good": 0.99,
+        "bad": 0.95
+      },
+      "Nhất quán": {
+        "good": 0.99,
+        "bad": 0.95
+      },
+      "Chính xác": {
+        "good": 0.9,
+        "bad": 0.8
+      },
+      "Kịp thời": {
+        "good": 0.99,
+        "bad": 0.95
+      }
+    }
+  },
+  "tables": [
+    "business",
+    "checkin",
+    "review",
+    "tip",
+    "user"
+  ],
+  "rows": {
+    "business": 150346,
+    "checkin": 13356875,
+    "review": 6990280,
+    "tip": 908915,
+    "user": 1987897
+  },
+  "elapsed_seconds": 294.3
+}

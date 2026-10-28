@@ -1,0 +1,430 @@
+﻿table,rule_id,aspect,row_position,record,cell,value,reference_name,reference_value
+business,C2,Đầy đủ,853,business_id='6cPVGUOVlHa6TwlgU08IXQ'; name='Dr.Green',postal_code,'',,
+business,C2,Đầy đủ,2617,"business_id='siwG4ZM7RjUDO52DI84m3w'; name=""Ray's Vegan Soul""",postal_code,'',,
+business,C2,Đầy đủ,2984,business_id='m84BCUA6aDi03mRyufHYBw'; name='Harlow Pest & Sanitation Control',postal_code,'',,
+business,C2,Đầy đủ,11334,business_id='VEdEuOfDGhgRWO-PipfB7w'; name='Fill A Seat Philadelphia',postal_code,'',,
+business,C2,Đầy đủ,16507,business_id='--sXnWH9Xm6_NvIjyuA99w'; name='Philadelphia',postal_code,'',,
+business,C2,Đầy đủ,17814,business_id='4vvu78FMlZyQwZf0bBUkLQ'; name='Indy 500 Parade',postal_code,'',,
+business,C2,Đầy đủ,19708,business_id='UZ7mpi6qcsS0FqsH-cyfnA'; name='Krewe of Choctaw',postal_code,'',,
+business,C2,Đầy đủ,20412,business_id='9KSHmObBPY0AF27uHtGcLQ'; name='Laurel Hawkswell - Caricature Artist',postal_code,'',,
+business,C2,Đầy đủ,20806,business_id='iScjM-BsvC9VTeOSCpU7aw'; name='Altitud',postal_code,'',,
+business,C2,Đầy đủ,21702,business_id='mObvxzRcbFmi6fybvx1kvw'; name='Scribble Food Truck',postal_code,'',,
+business,C2,Đầy đủ,22226,business_id='jnTnR_eN7hGc7GGzGdUt9Q'; name='The Waffle Boss',postal_code,'',,
+business,C2,Đầy đủ,22672,"business_id='fxDbnwdmrQWD20WJP9-SLA'; name=""Phi's Pretty Faces""",postal_code,'',,
+business,C2,Đầy đủ,29821,business_id='ul0MGusQZBGo4CqiVh6VcA'; name='Krewe of Thoth',postal_code,'',,
+business,C2,Đầy đủ,32493,business_id='bV5dtW7JtIw4P6NkbVrObA'; name='Indy Pies and Pints with Arts 4 Lear...,postal_code,'',,
+business,C2,Đầy đủ,33100,business_id='MxSSESMG5NJCDHy_zsmNCw'; name='Fire Monkey Food Truck',postal_code,'',,
+business,C2,Đầy đủ,35473,business_id='F2e_n_3JUPXNq3sHiduRbA'; name='Filistix',postal_code,'',,
+business,C2,Đầy đủ,36798,business_id='uOJpsExQwccuDA1eDxTEOQ'; name='NLC Productions',postal_code,'',,
+business,C2,Đầy đủ,38087,business_id='qNv6C5eR2HQ-nsAi5hVVmg'; name='Target',postal_code,'',,
+business,C2,Đầy đủ,38101,business_id='eO8XNUZBVA6XLEONqipFqw'; name='Beer Garden at the Oval',postal_code,'',,
+business,C2,Đầy đủ,43377,business_id='6amXT7sZ3Ab4JV7n3YB0hg'; name='The Balloon Fairies',postal_code,'',,
+business,C2,Đầy đủ,1917,business_id='SMYXOLPyM95JvZ-oqnsWUA'; name='A A Berlin Glass & Mirror Co',categories,nan,,
+business,C2,Đầy đủ,2243,business_id='9ryVeDaaR-le3kiSayTGow'; name='Pauline African Hair Braiding & Weav...,categories,nan,,
+business,C2,Đầy đủ,3304,business_id='xT3J-SP5g49g2FjQfLEQfg'; name='Luxury Perfume',categories,nan,,
+business,C2,Đầy đủ,3324,business_id='_obl2-rphXvtzP3y_ekV1Q'; name='Certegy Payment Services',categories,nan,,
+business,C2,Đầy đủ,4640,business_id='mKxCNYEoKt6d_1rXmvRwww'; name='Green Envy',categories,nan,,
+business,C2,Đầy đủ,5478,business_id='9QoKKDZB_YuDeS5TxRW8bg'; name='Our 365 Portraits',categories,nan,,
+business,C2,Đầy đủ,10042,business_id='lxaSo0sBK36BNDRL6uWHXg'; name='Parklane Management Company',categories,nan,,
+business,C2,Đầy đủ,12526,business_id='ZERQMWb1PFzCfbfknqq-fA'; name='Pilot Air Freight',categories,nan,,
+business,C2,Đầy đủ,13023,business_id='cs7i8-NtrT2P4dMYa2fX-g'; name='Direct USA',categories,nan,,
+business,C2,Đầy đủ,13165,"business_id='tfQEd3kakCQdbjfdp62rzg'; name=""Nicholson's College Cars""",categories,nan,,
+business,C2,Đầy đủ,15060,business_id='NpQowTAUYGeylRCAsJx9UA'; name='Skaters Choice',categories,nan,,
+business,C2,Đầy đủ,17615,business_id='7cEbbI3wjuGSsJUIGdrnzg'; name='Qmar',categories,nan,,
+business,C2,Đầy đủ,17838,business_id='6aVfpb46kY1FN7nFc32Tew'; name='Smart Cents Cleaners',categories,nan,,
+business,C2,Đầy đủ,19190,business_id='_LoMSJiz4dLYnqwRN1bVOg'; name='Sure Payroll Service',categories,nan,,
+business,C2,Đầy đủ,19419,business_id='Dngea1LMy4JhJiC5mlYcow'; name='Positive Promotions',categories,nan,,
+business,C2,Đầy đủ,20446,"business_id='2M_l_vsJx2T_Ihu2XhfRJw'; name=""Higginbottom's Heat & Ac Service""",categories,nan,,
+business,C2,Đầy đủ,21567,business_id='Ap9LaMbl1hJX0c7q3m9hAw'; name='Adriatic Insurance Company',categories,nan,,
+business,C2,Đầy đủ,22933,business_id='qnJ5tZf2eHrvNZXN5ZMQHQ'; name='Cope Behavioral Services',categories,nan,,
+business,C2,Đầy đủ,26587,business_id='aya_GU5A7-cB3-G3IO58ng'; name='Dollar General Store',categories,nan,,
+business,C2,Đầy đủ,27640,business_id='S1OERFoPAqaDqr5_dFOTxg'; name='Keter North America',categories,nan,,
+business,C7,Đầy đủ,11,business_id='eEOYSgkmpB90uNA7lDOMRA'; name='Vietnamese Food Truck',address,'',,
+business,C7,Đầy đủ,39,business_id='fSCNwMtNNQY9QT69Cj9fiA'; name='Sierra Pro Events',address,'',,
+business,C7,Đầy đủ,51,business_id='REwfwz-_-CMQ7Np5UVi9Qg'; name='Jennie Deckert',address,'',,
+business,C7,Đầy đủ,66,"business_id='n7AQvGvNHlmun3kqXeBKVQ'; name=""Roy's Appliance Service""",address,'',,
+business,C7,Đầy đủ,72,business_id='7PDi_iyik3jraDAzWwwR4Q'; name='Chase JP Morgan Bank Credit Card Ser...,address,'',,
+business,C7,Đầy đủ,93,business_id='RK6-cJ9hj53RzOlCBmpT-g'; name='Impasto',address,'',,
+business,C7,Đầy đủ,120,business_id='bYjnX_J1bHZob10DoSFkqQ'; name='Tinkle Belle Diaper Service',address,'',,
+business,C7,Đầy đủ,207,business_id='8oi1Gm7XLyK31Y3N3Wp2Ig'; name='A & A Complete Services',address,'',,
+business,C7,Đầy đủ,223,"business_id='QU-X2Pijwd4SitfYXoZWMQ'; name=""Mason's Tree Service""",address,'',,
+business,C7,Đầy đủ,246,business_id='MyE_zdul_JO-dOHOug4GQQ'; name='Watson Adventures Scavenger Hunts',address,'',,
+business,C7,Đầy đủ,251,business_id='8ThWgxiTB83nrIGbZQnNBg'; name='Creature Comforts Pet Sitting',address,'',,
+business,C7,Đầy đủ,252,"business_id='TzrA1TsKMKbrZBkw3q6DEQ'; name=""Scout's Treat Truck""",address,'',,
+business,C7,Đầy đủ,273,business_id='s-A1_pxGRYL2x4gONVzvFA'; name='Easy Rider Repair',address,'',,
+business,C7,Đầy đủ,280,business_id='gYMOrd8xnZF-B61lwGiFUw'; name='Inkorporated',address,'',,
+business,C7,Đầy đủ,288,business_id='usv5G5cO314pPHRTGq2Eyw'; name='Best Tours',address,'',,
+business,C7,Đầy đủ,306,business_id='cEqDvn5VuX8nQ_vqs6_xog'; name='Alex Smith Hardwood Flooring',address,'',,
+business,C7,Đầy đủ,320,business_id='FF45pKN_lzqG8Bqk-_HQvw'; name='Go! Gyro! Go!',address,'',,
+business,C7,Đầy đủ,375,business_id='FJDvhCGIwKuohPOK7JfLuA'; name='Key One',address,'',,
+business,C7,Đầy đủ,379,business_id='nIn0fMn-SEjLdJ44SG4CKw'; name='A Personal Touch Cleaning Service',address,'',,
+business,C7,Đầy đủ,435,business_id='bPPy7yNFfb-6N_bHkn1qAw'; name='Taste of the Caribbean',address,'',,
+business,C7,Đầy đủ,0,"business_id='Pns2l4eNsfO8kk83dixA6A'; name='Abby Rappoport, LAC, CMQ'",hours,None,,
+business,C7,Đầy đủ,8,"business_id='k0hlBqXX-Bt0vf1op7Jr1w'; name=""Tsevi's Pub And Grill""",hours,None,,
+business,C7,Đầy đủ,24,business_id='4iRzR7OaS-QaSXuvYxEGKA'; name='Super Dog',hours,None,,
+business,C7,Đầy đủ,34,business_id='w_AMNoI1iG9eay7ncmc67w'; name='River 127',hours,None,,
+business,C7,Đầy đủ,36,business_id='2xVsWBNFwZOxIOdd9Mwnww'; name='Cheeseburger In Paradise',hours,None,,
+business,C7,Đầy đủ,48,business_id='bCBPXIVfVzBZBEpFu29dcg'; name='All In Shipping',hours,None,,
+business,C7,Đầy đủ,51,business_id='REwfwz-_-CMQ7Np5UVi9Qg'; name='Jennie Deckert',hours,None,,
+business,C7,Đầy đủ,54,"business_id='0qNpTGTcqPwOLi2hADx4Xw'; name=""Charlie's Market""",hours,None,,
+business,C7,Đầy đủ,55,business_id='xM6LoUcnpDpMBzXs_7dXAg'; name='Fairfield Inn & Suites',hours,None,,
+business,C7,Đầy đủ,62,business_id='L_TT0BFmFwORAMaA83K54A'; name='Village Tap Room',hours,None,,
+business,C7,Đầy đủ,63,business_id='mjWvAkNqoA6Y5P03sDSzfA'; name='Educational Outfitters',hours,None,,
+business,C7,Đầy đủ,64,"business_id='qfWJmJ0g96eM_fWma3ja0g'; name=""Doc Magrogan's Oyster House - West C...",hours,None,,
+business,C7,Đầy đủ,69,business_id='KWA2qtdwVEkMpd5soSKaGA'; name='Publix Super Market',hours,None,,
+business,C7,Đầy đủ,70,business_id='gbN4RuUiiBxQ2GBFQ2p3Cw'; name='Mr. Margarita',hours,None,,
+business,C7,Đầy đủ,72,business_id='7PDi_iyik3jraDAzWwwR4Q'; name='Chase JP Morgan Bank Credit Card Ser...,hours,None,,
+business,C7,Đầy đủ,73,"business_id='8rb-3VYXE37IZix4yOdskw'; name=""Sharky's Sports Bar & Grill""",hours,None,,
+business,C7,Đầy đủ,78,business_id='x9K0RfZaT_zlw6DklBDzjw'; name='Gavi Italian Restaurant',hours,None,,
+business,C7,Đầy đủ,80,business_id='cvP_vh_bOLbCY3eoY1Xw-A'; name='Fishers Freedom Festival',hours,None,,
+business,C7,Đầy đủ,83,business_id='NZ_bFJma7brQUfln5h1UAg'; name='Super Sushi Kyo Hin',hours,None,,
+business,C7,Đầy đủ,104,business_id='Dy91wdWkwtI_qgjAIZ0Niw'; name='Taqueria Los Primos',hours,None,,
+business,C7,Đầy đủ,7,business_id='qkRM_2X51Yqxk3btlwAQIg'; name='Temple Beth-El',attributes,None,,
+business,C7,Đầy đủ,18,business_id='8wGISYjYkE2tSqn3cDMu8A'; name='Nifty Car Rental',attributes,None,,
+business,C7,Đầy đủ,25,business_id='PSo_C1Sfa13JHjzVNW6ziQ'; name='Indian Walk Veterinary Center',attributes,None,,
+business,C7,Đầy đủ,42,business_id='lwItZ1Ck3KtpCgG4CPFmpQ'; name='Stomel Elliot Attorney-At-Law',attributes,None,,
+business,C7,Đầy đủ,51,business_id='REwfwz-_-CMQ7Np5UVi9Qg'; name='Jennie Deckert',attributes,None,,
+business,C7,Đầy đủ,67,business_id='eYxGFkxo6m3SYGVTh5m2nQ'; name='Big Boyz Toyz Motorcycle Rentals',attributes,None,,
+business,C7,Đầy đủ,72,business_id='7PDi_iyik3jraDAzWwwR4Q'; name='Chase JP Morgan Bank Credit Card Ser...,attributes,None,,
+business,C7,Đầy đủ,86,business_id='sE6jSnvMts_MAn-b4OkMAw'; name='K-9 Groom Room',attributes,None,,
+business,C7,Đầy đủ,98,business_id='U2Tzy6J9aAAg9pzXsgdkvg'; name='Premier Mortgage Resources',attributes,None,,
+business,C7,Đầy đủ,119,business_id='qFX8IdomeBVhDPCSyz2aRg'; name='Nashville Delivers',attributes,None,,
+business,C7,Đầy đủ,138,business_id='txiXR1YfMyk-5S4ZzOVIhQ'; name='Advance Financial',attributes,None,,
+business,C7,Đầy đủ,148,business_id='9LLxOjEhLNcdx8i4lL6EUQ'; name='Banfield Pet Hospital',attributes,None,,
+business,C7,Đầy đủ,158,business_id='FC6ef4rMMZKNov_-A9M6iQ'; name='TD Bank Havertown',attributes,None,,
+business,C7,Đầy đủ,163,"business_id='DcUDIlxFsvqPvFh8_lb4Sw'; name=""Lott's Service""",attributes,None,,
+business,C7,Đầy đủ,203,business_id='EDNYAyVc_WFhM3CD6QVD4A'; name='Ottewell Animal Clinic',attributes,None,,
+business,C7,Đầy đủ,210,business_id='UoKkgWmE9-c3wbWwO4VAVQ'; name='Beaver Hill Condominium',attributes,None,,
+business,C7,Đầy đủ,223,"business_id='QU-X2Pijwd4SitfYXoZWMQ'; name=""Mason's Tree Service""",attributes,None,,
+business,C7,Đầy đủ,230,"business_id='do6EpBc7ZUoaqdzuUuGFXA'; name=""Jim's Auto Detailing""",attributes,None,,
+business,C7,Đầy đủ,239,business_id='D9Xez9uOSM4DgSjSTywq7w'; name='King of Jewelers',attributes,None,,
+business,C7,Đầy đủ,251,business_id='8ThWgxiTB83nrIGbZQnNBg'; name='Creature Comforts Pet Sitting',attributes,None,,
+business,V2,Hợp lệ,144012,business_id='g0fYqQRRKmYIfChE4jMLsg'; name='All Service Citgo',longitude,-73.2004570502,,
+business,V8,Hợp lệ,98685,business_id='IvQs2hhXKZ4NgZhVZ5jjjQ'; name='Pumpernickles Catering',state,'XMS',,
+business,U3,Duy nhất,11786,business_id='hMcgO98QaOFmQVTfCUeGzw'; name='Dentistry For Life',"(name, address, postal_code)","""name='Dentistry For Life'; address='1601 Walnut St, Ste 1...; postal_code='1...",,
+business,U3,Duy nhất,13318,business_id='m1XtvXqnqKgZvgKB8uYKIw'; name='Preferred Party Place',"(name, address, postal_code)","""name='Preferred Party Place'; address='1651 Sicklerville Rd'; postal_code='0...",,
+business,U3,Duy nhất,15309,business_id='nr6yF-97kmREAXOtzEjEiw'; name='Meineke Car Care Center',"(name, address, postal_code)","""name='Meineke Car Care Center'; address='3702 W 86th St'; postal_code='46268'""",,
+business,U3,Duy nhất,28944,business_id='BdfWrBlULBZV-zLUDTfCDQ'; name='Cupcakes',"(name, address, postal_code)","""name='Cupcakes'; address='4811 E Grant Rd, Ste ...; postal_code='85712'""",,
+business,U3,Duy nhất,31213,business_id='p9z15n352EvWo_PLjRKsUw'; name='Red Sky',"(name, address, postal_code)","""name='Red Sky'; address='224 Market St'; postal_code='19106'""",,
+business,U3,Duy nhất,34297,business_id='djRxgaeunEN6a5XG24BzVg'; name='Bourbon Orleans Hotel',"(name, address, postal_code)","""name='Bourbon Orleans Hotel'; address='717 Orleans St'; postal_code='70116'""",,
+business,U3,Duy nhất,38807,business_id='i2H9kFPMAM7kT6t_8uRCMQ'; name='AMC Indianapolis 17',"(name, address, postal_code)","""name='AMC Indianapolis 17'; address='4325 S Meridian St'; postal_code='46217'""",,
+business,U3,Duy nhất,41991,business_id='2uTM_dpF3iTV7-5zyk1_9w'; name='Tampa Bay Downs',"(name, address, postal_code)","""name='Tampa Bay Downs'; address='11225 Race Track Rd'; postal_code='33626'""",,
+business,U3,Duy nhất,45874,business_id='exrvCKEGg1Ays38rKLOdhA'; name='Starbucks',"(name, address, postal_code)","""name='Starbucks'; address='10701 Natural Bridge Rd'; postal_code='63145'""",,
+business,U3,Duy nhất,46942,business_id='7ImDezNCQA_OJlGmsfY0rQ'; name='River Run Day Spa',"(name, address, postal_code)","""name='River Run Day Spa'; address='671 East Riverpark Ln...; postal_code='83...",,
+business,U3,Duy nhất,49233,business_id='fyscCJ4VnpZLEYF_rBE-vA'; name='Barnes & Noble',"(name, address, postal_code)","""name='Barnes & Noble'; address='1311 Nixon Dr'; postal_code='08057'""",,
+business,U3,Duy nhất,50011,business_id='7sRiOL00cH5UohX47cNmhw'; name='Tropical Smoothie Cafe',"(name, address, postal_code)","""name='Tropical Smoothie Cafe'; address='103 Turner Ln'; postal_code='19380'""",,
+business,U3,Duy nhất,51063,business_id='85e8Uyn8tIyEZCqBP80rqA'; name='Lolita',"(name, address, postal_code)","""name='Lolita'; address='106 S 13th St'; postal_code='19107'""",,
+business,U3,Duy nhất,52271,business_id='iA0csH3u6Ug1x1Pt0-El-A'; name='Ballpark Village',"(name, address, postal_code)","""name='Ballpark Village'; address='601 Clark Ave'; postal_code='63102'""",,
+business,U3,Duy nhất,54109,business_id='R2PSCHpF2zt0lOKeZtyfhg'; name='The Sands Buffet',"(name, address, postal_code)","""name='The Sands Buffet'; address='345 N Arlington Ave'; postal_code='89501'""",,
+business,U3,Duy nhất,54307,business_id='7pHqkxH4nQp6mJwelFCKxQ'; name='Nail Luxe',"(name, address, postal_code)","""name='Nail Luxe'; address='3515 Hampton Ave'; postal_code='63139'""",,
+business,U3,Duy nhất,55529,business_id='kL98j83h3QFUoSBBevCHOw'; name='Tap Room On 19th',"(name, address, postal_code)","""name='Tap Room On 19th'; address='2400 S 19th St'; postal_code='19145'""",,
+business,U3,Duy nhất,56455,business_id='7dRZcx8mWNKaAKuPTHbIKQ'; name='The Temperance House',"(name, address, postal_code)","""name='The Temperance House'; address='5 S State St'; postal_code='18940'""",,
+business,U3,Duy nhất,57209,business_id='8Ck78FmeRO7W9iy1-5eCeg'; name='Logan Inn',"(name, address, postal_code)","""name='Logan Inn'; address='10 W Ferry St'; postal_code='18938'""",,
+business,U3,Duy nhất,57915,"business_id='ynFhD8GWcSNryihKoi5kKA'; name=""O'Fallon Brewery""","(name, address, postal_code)","'name=""O\'Fallon Brewery""; address=\'45 Progress Pkwy\'; postal_code=\'63043\''",,
+business,S5a,Nhất quán,10,business_id='UJsufbvfyfONHeWdvAHKjA'; name='Marshalls',city,"""Land O' Lakes""",,
+business,S5a,Nhất quán,263,business_id='rJXa375PYt906DwptOOP3Q'; name='Master Bait and Fishing Supplies',city,'TAMPA',,
+business,S5a,Nhất quán,511,business_id='sXZGhglxCV7bO7mXe63A8Q'; name='Epic Automotive',city,'St Louis',,
+business,S5a,Nhất quán,554,"business_id='pNu5bd9aL3jcJClfdQ86MQ'; name=""Momo's Ouzaria Taverna""",city,'St Louis',,
+business,S5a,Nhất quán,557,business_id='1EokZOnCDkjv2VtPtplyHw'; name='Reno Downtown Joint',city,'St Petersburg',,
+business,S5a,Nhất quán,638,"business_id='1p15mHF9dFRBYH_VKcdDRg'; name=""Bill's European Autoworks""",city,'Spring HIll',,
+business,S5a,Nhất quán,661,"business_id='WYVDN3VDDTiEUV0QR8D2Hg'; name=""Ron & Jo's Firearms & Sporting Suppl...",city,'O Fallon',,
+business,S5a,Nhất quán,716,business_id='iFGmwBbHTCcA421iYqOYcQ'; name='Stylist Inside',city,"""Land O' Lakes""",,
+business,S5a,Nhất quán,771,business_id='sWCCxY1-9B1FGlSVeQvnHg'; name='CD Roma Restaurant',city,'St Petersburg',,
+business,S5a,Nhất quán,773,business_id='dDbLYwjs5KH_rWbIjXNdoA'; name='Weinhardt Party Rentals',city,'St Louis',,
+business,S5a,Nhất quán,799,business_id='Y370KeuqfpmmH0RmRT4F3Q'; name='Tire Choice Auto Service Centers',city,'St. Charles',,
+business,S5a,Nhất quán,848,"business_id='61oyIzeFjG977kMhMxVznw'; name=""Distler's Auto Repair""",city,'O Fallon',,
+business,S5a,Nhất quán,858,business_id='qawLaB79bFiXEtFc5SEBkQ'; name='Crowne Plaza Philadelphia - King of ...,city,'King Of Prussia',,
+business,S5a,Nhất quán,1062,business_id='lgu_KwQLd8TX2ewsNIzsjA'; name='K-Bop STL',city,'St Louis',,
+business,S5a,Nhất quán,1165,business_id='lj-E32x9_FA7GmUrBGBEWg'; name='Brio Italian Grille',city,'St Louis',,
+business,S5a,Nhất quán,1256,business_id='2pXrwBssKTp30uxbQgl6kw'; name='St. Pete Beach',city,'St Pete Beach',,
+business,S5a,Nhất quán,1445,"business_id='0BNR2_vrxuXG6I7f3Y6LZQ'; name='Midtown Corkdorks Wine, Spirits & Beer'",city,'NASHVILLE',,
+business,S5a,Nhất quán,1464,business_id='3Pjvw7oOjjfH_YuH2vMD5w'; name='Zorba',city,'Temple Terr',,
+business,S5a,Nhất quán,1507,business_id='Xeqjpaa4FDt2gGSXdFUixQ'; name='Purple Lotus Massage Therapy',city,'St. Albert',,
+business,S5a,Nhất quán,1608,business_id='E-iR_Q_r2Kz96daIZtEukQ'; name='Hilton Garden Inn St Pete Beach',city,'St Pete Beach',,
+business,S5b,Nhất quán,8264,business_id='HVRr4sb4taskrD9eQtrJEg'; name='El Meson',city,'Franklin',,
+business,S5b,Nhất quán,32345,business_id='f-S2Y0OO00cQjo8yj3upKg'; name='Find Your Zen',city,'Eagle',,
+business,S5b,Nhất quán,32536,business_id='qw_eRqiGeYwsbTfkpd_Pqg'; name='Southern Luxe Beauty',city,'Mount Juliet',,
+business,S5b,Nhất quán,32542,business_id='qqwoRPrvqu23Lx-CzEMYAg'; name='American Document Destruction',city,'Sparks',,
+business,S5b,Nhất quán,37646,"business_id='t7cZzoUcWBK6xzJklgR9xQ'; name=""White's  Custom Paving""",city,'Smyrna',,
+business,S5b,Nhất quán,44579,business_id='kqZNMEhQEsq5aR0SARDF9Q'; name='Basements Love Us',city,'Philadelphia',,
+business,S5b,Nhất quán,45788,business_id='qo8pzSPJWFPNq_4YqycTwA'; name='Elite Sanitation',city,'Spring Hill',,
+business,S5b,Nhất quán,48158,business_id='-OwQecRCT2YZu_T6tMUZMA'; name='Intensity Fit Club',city,'Tampa',,
+business,S5b,Nhất quán,56720,business_id='pOblpRcmhDWrewp_IVosCQ'; name='Gilliland Masonry',city,'Eagle',,
+business,S5b,Nhất quán,58184,"business_id='Qbs7XxSZ2oRTOXMR5SQdzg'; name=""White's Home Inspection""",city,'Nashville',,
+business,S5b,Nhất quán,60163,business_id='rRYHEKQIdiBa1z681ZWMBA'; name='Rapid Recovery Hydration Solutions',city,'Reno',,
+business,S5b,Nhất quán,63314,business_id='ZhPzvVPiR6nEWuraSPvXAw'; name='Smart Skin Solutions',city,'Meridian',,
+business,S5b,Nhất quán,71123,business_id='VWHKb94aTtdUwp6OPQzZBA'; name='Zara Brow Bar',city,'Cherry Hill',,
+business,S5b,Nhất quán,75677,business_id='r1p7RAMzCV_6NPF0dNoR3g'; name='Cater 2 U',city,'Mount Laurel',,
+business,S5b,Nhất quán,76352,business_id='_sE5Fw4Ui2XbvMLPUL9Bcw'; name='2 Sisters Photography',city,'Tucson',,
+business,S5b,Nhất quán,82350,business_id='PJ1z1RzGPWRrYEsm04M9pQ'; name='Brand Fine Jewelry & Gems',city,'Reno',,
+business,S5b,Nhất quán,83894,business_id='TOFm4N1vBcqpZ-rywMMeJg'; name='Adrians Bakery',city,'New Orleans',,
+business,S5b,Nhất quán,84012,business_id='P8hXAqphPxPRv00x3A3etA'; name='Carollos Deli and Produce',city,'Franklin',,
+business,S5b,Nhất quán,85902,business_id='oNc3jqWz7wq069RAQ15osw'; name='Green Leaf Moving and Storage',city,'Spring Hill',,
+business,S5b,Nhất quán,86836,"business_id='NDk4qwpkU2npNZu742OdBQ'; name=""Angelina's Italian Grill""",city,'Glen Mills',,
+business,S6,Nhất quán,2,business_id='tUFrWirKiKi_TAnsVWINQQ'; name='Target',review_count,22,review_n_by_business,24.0
+business,S6,Nhất quán,3,business_id='MTSW4McQd7CbVtyjqoe9mw'; name='St Honore Pastries',review_count,80,review_n_by_business,87.0
+business,S6,Nhất quán,11,business_id='eEOYSgkmpB90uNA7lDOMRA'; name='Vietnamese Food Truck',review_count,10,review_n_by_business,11.0
+business,S6,Nhất quán,12,"business_id='il_Ro8jwPlHresjw9EGmBg'; name=""Denny's""",review_count,28,review_n_by_business,29.0
+business,S6,Nhất quán,14,"business_id='0bPLkL0QhhPO5kt1_EXmNQ'; name=""Zio's Italian Market""",review_count,100,review_n_by_business,106.0
+business,S6,Nhất quán,15,business_id='MUTTqe8uqyMdBl186RmNeA'; name='Tuna Bar',review_count,245,review_n_by_business,250.0
+business,S6,Nhất quán,19,business_id='ROeacJQwBeh05Rqg7F6TCg'; name='BAP',review_count,205,review_n_by_business,208.0
+business,S6,Nhất quán,23,"business_id='9OG5YkX1g2GReZM0AskizA'; name=""Romano's Macaroni Grill""",review_count,339,review_n_by_business,356.0
+business,S6,Nhất quán,25,business_id='PSo_C1Sfa13JHjzVNW6ziQ'; name='Indian Walk Veterinary Center',review_count,15,review_n_by_business,16.0
+business,S6,Nhất quán,28,business_id='QdN72BWoyFypdGJhhI5r7g'; name='Bar One',review_count,65,review_n_by_business,69.0
+business,S6,Nhất quán,30,business_id='fvWn8oXXwbj2l79cochZyw'; name='Altitude Trampoline Park - Boise',review_count,30,review_n_by_business,31.0
+business,S6,Nhất quán,33,business_id='kV_Q1oqis8Qli8dUoGpTyQ'; name='Ardmore Pizza',review_count,109,review_n_by_business,114.0
+business,S6,Nhất quán,35,business_id='aPNXGTDkf-4bjhyMBQxqpQ'; name='Craft Hall',review_count,65,review_n_by_business,66.0
+business,S6,Nhất quán,37,business_id='mGFsPRHdE6SMV1gYQ6GzgQ'; name='T-Mobile',review_count,6,review_n_by_business,7.0
+business,S6,Nhất quán,38,"business_id='LcAozWCMLGjwRbokaJAKMg'; name=""Edwardsville Children's Museum""",review_count,12,review_n_by_business,13.0
+business,S6,Nhất quán,41,"business_id='ljxNT9p0y7YMPx0fcNBGig'; name=""Tony's Restaurant & 3rd Street Cafe""",review_count,94,review_n_by_business,105.0
+business,S6,Nhất quán,43,business_id='Kq51_lGAgAigqmENITTr-A'; name='Bala Better Health',review_count,13,review_n_by_business,14.0
+business,S6,Nhất quán,44,business_id='mglME3E7esPSpIF5bias8w'; name='Pier 1',review_count,8,review_n_by_business,9.0
+business,S6,Nhất quán,46,business_id='JX4tUpd09YFchLBuI43lGw'; name='Naked Cyber Cafe & Espresso Bar',review_count,12,review_n_by_business,13.0
+business,S6,Nhất quán,47,business_id='lk9IwjZXqUMqqOhM774DtQ'; name='Caviar & Bananas',review_count,159,review_n_by_business,162.0
+business,S7,Nhất quán,172,business_id='wMAxTyExktVtfyqKAfApbA'; name='Tuffy Tire & Auto Service Center',stars,4.0,review_mean_by_business,3.4444444444444446
+business,S7,Nhất quán,295,business_id='YG0OOMLP3MWYPKHpkA_mew'; name='S&K Salon',stars,4.0,review_mean_by_business,3.4285714285714284
+business,S7,Nhất quán,326,business_id='28FfSlW07o8GTwOrbfNMHA'; name='Bronze Lady Home Furnishings',stars,2.5,review_mean_by_business,1.875
+business,S7,Nhất quán,477,business_id='GMVVFox3a0ROMdofd68mZw'; name='Affordable Lock & Security Solutions...,stars,4.0,review_mean_by_business,3.4285714285714284
+business,S7,Nhất quán,493,"business_id='lJfxS6RMzAQ7oy8F2vU3Pg'; name='C R Bhatia, DVM - Animal Clinic of W...",stars,4.5,review_mean_by_business,3.9166666666666665
+business,S7,Nhất quán,1081,business_id='98fsEVTy5Ses0Pb03AhzFA'; name='Giant Food Stores',stars,3.0,review_mean_by_business,3.769230769230769
+business,S7,Nhất quán,1374,business_id='cwc-RQjGiIKRWG1ia8SEcg'; name='United Water Restoration Group of Ta...,stars,4.5,review_mean_by_business,3.8636363636363638
+business,S7,Nhất quán,2076,business_id='ri7LOsk5W_xGVfxhXFHY5Q'; name='Elbow Room Bar',stars,4.0,review_mean_by_business,3.3125
+business,S7,Nhất quán,2333,"business_id='WtHsNHG_TNCfa470ZqDwOg'; name='CertaPro Painters of Wilmington, DE'",stars,3.5,review_mean_by_business,2.857142857142857
+business,S7,Nhất quán,2423,business_id='r8f4AvQiI-o5qsuWmw80XA'; name='Cellphone MD',stars,4.5,review_mean_by_business,3.857142857142857
+business,S7,Nhất quán,2473,"business_id='WZgfBnIvBZ2B7OWkyiOPUA'; name=""Raley's""",stars,3.0,review_mean_by_business,2.375
+business,S7,Nhất quán,2520,"business_id='V8WH8Op-Euz9vpInRD88RQ'; name=""Ceasar's""",stars,4.0,review_mean_by_business,3.4444444444444446
+business,S7,Nhất quán,2576,business_id='Ns1mgVrGKCxTv_ZGM9K7Vg'; name='Chase Bank',stars,3.0,review_mean_by_business,2.4285714285714284
+business,S7,Nhất quán,2677,business_id='mnejSSj4h_EYHnmKJkP61A'; name='Applegate Wood Floors',stars,4.0,review_mean_by_business,2.6
+business,S7,Nhất quán,3078,business_id='ACzefWZQk61KZDCOcODuYg'; name='The Paw Palace',stars,4.0,review_mean_by_business,3.4
+business,S7,Nhất quán,4783,business_id='9E8ou8QWn0RLJGutQZ3EEw'; name='David E Callahan Pool Plastering',stars,3.5,review_mean_by_business,2.8181818181818183
+business,S7,Nhất quán,4989,business_id='qTXlIshnMO7qUMhg4QiE2A'; name='PSTA',stars,2.0,review_mean_by_business,3.272727272727273
+business,S7,Nhất quán,5208,business_id='QrfNsfffy2K-Ibh0tKmY9g'; name='ReNew Creve Coeur',stars,3.5,review_mean_by_business,2.857142857142857
+business,S7,Nhất quán,5734,"business_id='2siLuXZHbG0KNOUgOkGiEA'; name=""Papa John's Pizza""",stars,2.5,review_mean_by_business,3.0526315789473686
+business,S7,Nhất quán,6145,business_id='dYvKnBhQMFdYL2tsDwXAJA'; name='Virtua Urgent Care - Moorestown',stars,4.0,review_mean_by_business,3.3333333333333335
+business,T4,Kịp thời,6,business_id='n_0UpQx1hsNbnPUSlodU8w'; name='Famous Footwear',is_open,1,,
+business,T4,Kịp thời,39,business_id='fSCNwMtNNQY9QT69Cj9fiA'; name='Sierra Pro Events',is_open,1,,
+business,T4,Kịp thời,48,business_id='bCBPXIVfVzBZBEpFu29dcg'; name='All In Shipping',is_open,1,,
+business,T4,Kịp thời,51,business_id='REwfwz-_-CMQ7Np5UVi9Qg'; name='Jennie Deckert',is_open,1,,
+business,T4,Kịp thời,52,business_id='5BmQX4UVJY19mMtafMg7JA'; name='Breadland Organic Whole Grain Bakery',is_open,1,,
+business,T4,Kịp thời,57,business_id='DQ7PyYlp2bX96WZa7TcaWQ'; name='LensCrafters',is_open,1,,
+business,T4,Kịp thời,67,business_id='eYxGFkxo6m3SYGVTh5m2nQ'; name='Big Boyz Toyz Motorcycle Rentals',is_open,1,,
+business,T4,Kịp thời,88,business_id='LhpPSrulqVeTyJeK2xydvQ'; name='Fresh Fruits & Salads',is_open,1,,
+business,T4,Kịp thời,93,business_id='RK6-cJ9hj53RzOlCBmpT-g'; name='Impasto',is_open,1,,
+business,T4,Kịp thời,94,business_id='ZM46RDLXaFNo_z6t-j_L4w'; name='Absolutely Perfect Inc',is_open,1,,
+business,T4,Kịp thời,96,business_id='J_ksUDPpzPwfTGtI4zTRnQ'; name='Riverview Room',is_open,1,,
+business,T4,Kịp thời,100,business_id='8KMIT0NXu30Jz5Ojo5uxaw'; name='Cornerstone Physical Therapy Associa...,is_open,1,,
+business,T4,Kịp thời,108,business_id='kK2i5Xyd9SOpF5pCFilbcg'; name='Swat Pest Control',is_open,1,,
+business,T4,Kịp thời,124,"business_id='Q3kQYhkYxSRyYyeBgtk--A'; name=""Cook's Glass & Mirror""",is_open,1,,
+business,T4,Kịp thời,135,business_id='qdYfHRsZdcz4Bun4f9Ijaw'; name='Norristown Car Wash',is_open,1,,
+business,T4,Kịp thời,142,"business_id='GWGXTKR0Fhdvzf_isDqJug'; name='David Gower, Jr.  - Coldwell Banker ...",is_open,1,,
+business,T4,Kịp thời,146,business_id='M_THnNDHs29aylcK-JqS1A'; name='Professional Healthcare of Pinellas',is_open,1,,
+business,T4,Kịp thời,150,business_id='XHTgtBSwLnwRHzKSbea2Fg'; name='Michael Kors',is_open,1,,
+business,T4,Kịp thời,163,"business_id='DcUDIlxFsvqPvFh8_lb4Sw'; name=""Lott's Service""",is_open,1,,
+business,T4,Kịp thời,174,business_id='vvE3HVfxlx9UYctKPr0dbw'; name='Inspired By Purpose Wellness Center ...,is_open,1,,
+checkin,U1,Duy nhất,4345,business_id='-0TffRSXXIlBYVbb5AwfTg'; checkin_time=2015-02-22 19:25:58,"(business_id, checkin_time)","""business_id='-0TffRSXXIlBYVbb5AwfTg'; checkin_time=2015-02-22 19:25:58""",,
+checkin,U1,Duy nhất,5483,business_id='-0Ym1Wg3bXd_TDz8JtvOQg'; checkin_time=2018-11-25 21:25:27,"(business_id, checkin_time)","""business_id='-0Ym1Wg3bXd_TDz8JtvOQg'; checkin_time=2018-11-25 21:25:27""",,
+checkin,U1,Duy nhất,8805,business_id='-1B9pP_CrRBJYPICE5WbRA'; checkin_time=2015-04-24 22:18:54,"(business_id, checkin_time)","""business_id='-1B9pP_CrRBJYPICE5WbRA'; checkin_time=2015-04-24 22:18:54""",,
+checkin,U1,Duy nhất,9316,business_id='-1B9pP_CrRBJYPICE5WbRA'; checkin_time=2016-02-19 00:49:11,"(business_id, checkin_time)","""business_id='-1B9pP_CrRBJYPICE5WbRA'; checkin_time=2016-02-19 00:49:11""",,
+checkin,U1,Duy nhất,14156,business_id='-2YZIUArmrIMVVBi8CT47w'; checkin_time=2017-03-12 01:19:31,"(business_id, checkin_time)","""business_id='-2YZIUArmrIMVVBi8CT47w'; checkin_time=2017-03-12 01:19:31""",,
+checkin,U1,Duy nhất,15202,business_id='-3-6BB10tIWNKGEF0Es2BA'; checkin_time=2021-03-06 03:29:29,"(business_id, checkin_time)","""business_id='-3-6BB10tIWNKGEF0Es2BA'; checkin_time=2021-03-06 03:29:29""",,
+checkin,U1,Duy nhất,17066,business_id='-3e3CP3FFc-rvJj_-_airw'; checkin_time=2013-08-18 23:09:56,"(business_id, checkin_time)","""business_id='-3e3CP3FFc-rvJj_-_airw'; checkin_time=2013-08-18 23:09:56""",,
+checkin,U1,Duy nhất,21664,business_id='-5Rah4ZvWsDu4oilUZxhtw'; checkin_time=2012-07-16 00:13:14,"(business_id, checkin_time)","""business_id='-5Rah4ZvWsDu4oilUZxhtw'; checkin_time=2012-07-16 00:13:14""",,
+checkin,U1,Duy nhất,26924,business_id='-6kIZWnXPuDC6JiQJ-A1fg'; checkin_time=2018-05-18 12:30:43,"(business_id, checkin_time)","""business_id='-6kIZWnXPuDC6JiQJ-A1fg'; checkin_time=2018-05-18 12:30:43""",,
+checkin,U1,Duy nhất,27488,business_id='-6osFx4NgFRHJ5NXqpHV6g'; checkin_time=2015-02-07 23:54:05,"(business_id, checkin_time)","""business_id='-6osFx4NgFRHJ5NXqpHV6g'; checkin_time=2015-02-07 23:54:05""",,
+checkin,U1,Duy nhất,28271,business_id='-7GjicSH_rM8JeZGCXGcUg'; checkin_time=2015-02-22 04:47:26,"(business_id, checkin_time)","""business_id='-7GjicSH_rM8JeZGCXGcUg'; checkin_time=2015-02-22 04:47:26""",,
+checkin,U1,Duy nhất,30872,business_id='-8NGFqFrlOmWawr827tZNg'; checkin_time=2014-08-14 23:10:15,"(business_id, checkin_time)","""business_id='-8NGFqFrlOmWawr827tZNg'; checkin_time=2014-08-14 23:10:15""",,
+checkin,U1,Duy nhất,32438,business_id='-8luB5pJ7d9UOoiF7wikkw'; checkin_time=2012-07-16 19:11:17,"(business_id, checkin_time)","""business_id='-8luB5pJ7d9UOoiF7wikkw'; checkin_time=2012-07-16 19:11:17""",,
+checkin,U1,Duy nhất,38357,business_id='-9lL4yFBX_7XVqUr8cwytg'; checkin_time=2013-04-25 13:31:57,"(business_id, checkin_time)","""business_id='-9lL4yFBX_7XVqUr8cwytg'; checkin_time=2013-04-25 13:31:57""",,
+checkin,U1,Duy nhất,38587,business_id='-9r8nAzWyRSLxBWt8uQOdA'; checkin_time=2013-07-27 05:13:38,"(business_id, checkin_time)","""business_id='-9r8nAzWyRSLxBWt8uQOdA'; checkin_time=2013-07-27 05:13:38""",,
+checkin,U1,Duy nhất,40665,business_id='-A10ZTqT4X49cneKlxXTcw'; checkin_time=2013-11-11 22:24:21,"(business_id, checkin_time)","""business_id='-A10ZTqT4X49cneKlxXTcw'; checkin_time=2013-11-11 22:24:21""",,
+checkin,U1,Duy nhất,41294,business_id='-A10ZTqT4X49cneKlxXTcw'; checkin_time=2014-10-22 21:09:17,"(business_id, checkin_time)","""business_id='-A10ZTqT4X49cneKlxXTcw'; checkin_time=2014-10-22 21:09:17""",,
+checkin,U1,Duy nhất,43333,business_id='-ATiAtTikuGuqvaW2O6tNA'; checkin_time=2018-02-18 16:35:39,"(business_id, checkin_time)","""business_id='-ATiAtTikuGuqvaW2O6tNA'; checkin_time=2018-02-18 16:35:39""",,
+checkin,U1,Duy nhất,45877,business_id='-AaxZJ_I4rSFOBJbBz4SlQ'; checkin_time=2019-07-20 20:29:19,"(business_id, checkin_time)","""business_id='-AaxZJ_I4rSFOBJbBz4SlQ'; checkin_time=2019-07-20 20:29:19""",,
+checkin,U1,Duy nhất,48296,business_id='-B_2jHrwV2nWNqdoWtBC8A'; checkin_time=2018-04-07 15:58:14,"(business_id, checkin_time)","""business_id='-B_2jHrwV2nWNqdoWtBC8A'; checkin_time=2018-04-07 15:58:14""",,
+review,V4,Hợp lệ,1933674,review_id='plhadSWfXZFKRAhEztb6Dw'; business_id='SJQePJL1bkeEk-6gp-6eeA',useful,-1,,
+review,V4,Hợp lệ,2008201,review_id='gk_9N_c-7oEgzrXVDaR8-g'; business_id='SJQePJL1bkeEk-6gp-6eeA',useful,-1,,
+review,V4,Hợp lệ,2046381,review_id='iYS4pfUCUPT_TEmW6BOnrA'; business_id='SJQePJL1bkeEk-6gp-6eeA',useful,-1,,
+review,V4,Hợp lệ,2201840,review_id='JcWLycg0Hdsz6LBNAqS37A'; business_id='E3Qk7xTznkT0SABL2ltpHA',useful,-1,,
+review,V4,Hợp lệ,2201840,review_id='JcWLycg0Hdsz6LBNAqS37A'; business_id='E3Qk7xTznkT0SABL2ltpHA',funny,-1,,
+review,V4,Hợp lệ,4383627,review_id='7tlF2NEDiFqMRjKBgTPJ3g'; business_id='qjstXewt23oCZnf86CsHXg',funny,-1,,
+review,V4,Hợp lệ,2201840,review_id='JcWLycg0Hdsz6LBNAqS37A'; business_id='E3Qk7xTznkT0SABL2ltpHA',cool,-1,,
+review,U4,Duy nhất,300934,review_id='DXk7XQ4drjxpoR1hXQPPxA'; business_id='XHEoP7Otn8RMH9r8WTJnOA',"(user_id, business_id, date)","""user_id='H_TgEZddpky6VOB9Xmzbvg'; business_id='XHEoP7Otn8RMH9r8WTJnOA'; date...",,
+review,U4,Duy nhất,645298,review_id='FmEWJou0hHUiEGCMmThz5Q'; business_id='zwXT4m9svdg-xh2cKjEp-Q',"(user_id, business_id, date)","""user_id='FHIZVv4yXhSAULPkxqsHxQ'; business_id='zwXT4m9svdg-xh2cKjEp-Q'; date...",,
+review,U4,Duy nhất,688326,review_id='d-2yAAWXkT9iMUcIly1zVQ'; business_id='zwXT4m9svdg-xh2cKjEp-Q',"(user_id, business_id, date)","""user_id='FHIZVv4yXhSAULPkxqsHxQ'; business_id='zwXT4m9svdg-xh2cKjEp-Q'; date...",,
+review,U4,Duy nhất,947833,review_id='rB7RlyL7eePvuzjoEz2grQ'; business_id='GnNVTRNyUCtQ-Lebes-4bA',"(user_id, business_id, date)","""user_id='EOWu2buXing_iDkvJEE86A'; business_id='GnNVTRNyUCtQ-Lebes-4bA'; date...",,
+review,U4,Duy nhất,1279906,review_id='6FJ-pUVQsMFHhW4RJltm6w'; business_id='t1H2xPVsbTRu48bZ5TgItw',"(user_id, business_id, date)","""user_id='6d4TXsdOZAsw8_h1r730uA'; business_id='t1H2xPVsbTRu48bZ5TgItw'; date...",,
+review,U4,Duy nhất,1339995,review_id='k-9PM7b3V3sahku-EvybwA'; business_id='uSNue_cXl17-UzEjyopxKg',"(user_id, business_id, date)","""user_id='twOonjoH_7giux8Hg692Rw'; business_id='uSNue_cXl17-UzEjyopxKg'; date...",,
+review,U4,Duy nhất,1391489,review_id='uN7sRdsxIJgmD5REegSpBA'; business_id='t1H2xPVsbTRu48bZ5TgItw',"(user_id, business_id, date)","""user_id='6d4TXsdOZAsw8_h1r730uA'; business_id='t1H2xPVsbTRu48bZ5TgItw'; date...",,
+review,U4,Duy nhất,1813913,review_id='Qu6Fhq5FzRk-evwIcxoskw'; business_id='LtxG9DTXCFpteVkD4SGBlw',"(user_id, business_id, date)","""user_id='Moc0CSVxmTQRc-By4Qx6BA'; business_id='LtxG9DTXCFpteVkD4SGBlw'; date...",,
+review,U4,Duy nhất,2532072,review_id='zob_5ZIMoHjEGwrmAyx8zA'; business_id='34WZxssK6o9uVzJh36MrOg',"(user_id, business_id, date)","""user_id='zKVF3EeQBpAXkU_KjFHPEw'; business_id='34WZxssK6o9uVzJh36MrOg'; date...",,
+review,U4,Duy nhất,2675359,review_id='IYZ3USvonIq1hA1Evm5NSg'; business_id='TaK6QGR0mpwcOd8rwr38vA',"(user_id, business_id, date)","""user_id='tkCvuScli1li7xId8836tw'; business_id='TaK6QGR0mpwcOd8rwr38vA'; date...",,
+review,U4,Duy nhất,2753763,review_id='qcYQmZuP4ywuYmYfcyAuYQ'; business_id='fiGh8ctcvIRm4Ii2GOtoHQ',"(user_id, business_id, date)","""user_id='wAph_egpAXr9ic-A2vnINQ'; business_id='fiGh8ctcvIRm4Ii2GOtoHQ'; date...",,
+review,U4,Duy nhất,2774499,review_id='QacdXke_oZAD662oeFyUxg'; business_id='n3Q7DXPyBzGjPK1l09SomQ',"(user_id, business_id, date)","""user_id='3B5wkOgsrjBjXRpGdrmTSA'; business_id='n3Q7DXPyBzGjPK1l09SomQ'; date...",,
+review,U4,Duy nhất,2929541,review_id='YMEGrI5NQ93dAbhx1VuTiA'; business_id='3xHkEBrXjrTrAY3vpxy23A',"(user_id, business_id, date)","""user_id='awo9Pa1I-D-tVBYoLCfBZA'; business_id='3xHkEBrXjrTrAY3vpxy23A'; date...",,
+review,U4,Duy nhất,3093575,review_id='Kf5iyI7qXW9S-UTTO7l1NQ'; business_id='8A5LSwsKK5vXDH1M3_Tf1w',"(user_id, business_id, date)","""user_id='kOcX-JXGlxKxeCqHXVqKrg'; business_id='8A5LSwsKK5vXDH1M3_Tf1w'; date...",,
+review,U4,Duy nhất,3116545,review_id='qkbLeGVNwxY9-5iMDcwZGw'; business_id='mfTyBrvx9uCTSPjmrl8PjA',"(user_id, business_id, date)","""user_id='T870ZkavUI1rqaO_FrJFiw'; business_id='mfTyBrvx9uCTSPjmrl8PjA'; date...",,
+review,U4,Duy nhất,3157317,review_id='pCt7PChgN-5EiGrAV6GPnw'; business_id='W9q_T8B3k0znSJytR5KCwQ',"(user_id, business_id, date)","""user_id='CajeNB3xz0_ImCWqX3bJyg'; business_id='W9q_T8B3k0znSJytR5KCwQ'; date...",,
+review,U4,Duy nhất,4404959,review_id='-TbM-3UKXMDDcV71RioyrA'; business_id='7v0y0ugH4r0lLp7z4Z6bsg',"(user_id, business_id, date)","""user_id='fe_xNNzjWM15tIk4qFUZvA'; business_id='7v0y0ugH4r0lLp7z4Z6bsg'; date...",,
+review,U4,Duy nhất,5169804,review_id='mmu7LYvTejt_sx96yTT_9w'; business_id='uYUsK2muRiy0ahFZchlVEw',"(user_id, business_id, date)","""user_id='PUbp706nEGVnzIiu6Otr2w'; business_id='uYUsK2muRiy0ahFZchlVEw'; date...",,
+review,U4,Duy nhất,5521113,review_id='8JcvaBpFPAe7lIVSazi0hQ'; business_id='O_kAd89gPls-dXda40NWzA',"(user_id, business_id, date)","""user_id='xZ0ioQJ0Jyo_Uc0FzmyFQQ'; business_id='O_kAd89gPls-dXda40NWzA'; date...",,
+review,U4,Duy nhất,5542895,review_id='CGVYQeyn1uFwOZqpcH5oGg'; business_id='Iyw6Nj9bYzGKopEvK4yqFA',"(user_id, business_id, date)","""user_id='Bu7T3djELZx051KkwWXA0w'; business_id='Iyw6Nj9bYzGKopEvK4yqFA'; date...",,
+review,S1,Nhất quán,508068,review_id='HS2Og8fu_9lzl-AlQ1L8Gw'; business_id='vpz_l8QIPSKRU8LGwfbb4A',user_id,'tquAg8GqbhN5k6Hkd23M0A',,
+review,S1,Nhất quán,627119,review_id='TZMTtzsG7hIy_1usL83moQ'; business_id='tsx84z4c0B-y6J5fqfvBqg',user_id,'5iBVQ3OeK8lV4Z_4PXc1Xw',,
+review,S1,Nhất quán,657261,review_id='rrXJ9Eux82kl7xm5YEUf2w'; business_id='j8JOZvfeHEfUWq3gEz6ABQ',user_id,'u8cq-5zzD7dPSa3LR8rIMw',,
+review,S1,Nhất quán,716187,review_id='iyoDkW-8aneKfvPi7KZMQQ'; business_id='Al7JOgn9Ch-xnUSAka16kQ',user_id,'433BzxUeQAmRmK0g06UAfA',,
+review,S1,Nhất quán,1333502,review_id='XuqkOMPkmKsKFzFQg7F82A'; business_id='P5qMWIfibfgYOwTTm5qkyg',user_id,'dWZlWFtsEXFVq_vulT00lA',,
+review,S1,Nhất quán,1352192,review_id='JVuwa9WSsFe52HDmK4wD2g'; business_id='P5qMWIfibfgYOwTTm5qkyg',user_id,'sxxnBQb15fOyg30JInIKqw',,
+review,S1,Nhất quán,2076660,review_id='GZmjLeVfDktqx7xZvAHBSg'; business_id='kZTwub3IkBCDHYW5J5pRrA',user_id,'MaengE6zJ6k_d5e6nwnVaA',,
+review,S1,Nhất quán,2094941,review_id='ebQaTudrnT1wE8SZkzzYGQ'; business_id='H0UeLT7rL0D6s1Sd3lTu_Q',user_id,'5XiPz5mJK_RtJQVkXIqxYg',,
+review,S1,Nhất quán,2120622,review_id='EZ0mbYE2xvG7g9rpn1_zmg'; business_id='4H6KdEMRlSrpFktX2k5gxg',user_id,'I200IyE9DCxJvvof2wnO6A',,
+review,S1,Nhất quán,2759216,review_id='1pcF0fYcXZ2V9QUgtFF8Lw'; business_id='mQZpnPY7o2u3I90rbzZNQg',user_id,'G0PWeUgNeGDobntevJlJ1g',,
+review,S1,Nhất quán,2793176,review_id='NVgvU3QYl28YJ-GcMjfhlA'; business_id='PKocWDBgjxAS7CBmopMtiw',user_id,'0oMk8hhMqiSt4G1BJjjG6g',,
+review,S1,Nhất quán,2812909,review_id='G8n21nKcVNR-noZJqz3sEw'; business_id='sgFb5gCtljLBb3Pjt9smoQ',user_id,'vq2H7lJ73VwXMDqC8DiImw',,
+review,S1,Nhất quán,3475421,review_id='WOYA_0Wj5aq9sM5UfPCbRQ'; business_id='eGi7CE2YaN6YMiGyXNi8XQ',user_id,'lzpM_Vf2rKA4ivGtAIOH4w',,
+review,S1,Nhất quán,3477723,review_id='d34uBmQ8ubYcL_yFpNatOw'; business_id='LAL-W7lTr2krLkGpTcPIXg',user_id,'qH_QwXBgA4Z7WyCjtwRi2A',,
+review,S1,Nhất quán,3487734,review_id='-i2qcWQ36WdYx-9e2ophAg'; business_id='FsXhBC87Br7qdJT2BvNY2g',user_id,'3N6-acEgosQSbipmBZKoSg',,
+review,S1,Nhất quán,4102780,review_id='NrZq0ndDHpHEXXCN6UJrKw'; business_id='sUc9743jIGkeTtwbYZQdEg',user_id,'ufZfni7nb_KdJC6DXNfVHQ',,
+review,S1,Nhất quán,4138395,review_id='wctH1ygJiMX98mCH5MHuKA'; business_id='cJGdlK7KeE78Qa0FydikIw',user_id,'VTfl9PALOCiGV8SUBpCZEQ',,
+review,S1,Nhất quán,4846813,review_id='rO8vZiS3PGZpKhLaReI0gg'; business_id='3POjy3_FgORekrh1y7oDXQ',user_id,'UwaRBUSj45sE9_kAnaGggw',,
+review,S1,Nhất quán,4869855,review_id='p8XkoJPBsBo6gYIXc5EyfQ'; business_id='OSFLne37VrY__yzhGjx1xQ',user_id,'AQnEwfNAgdxqRWpia__syA',,
+review,S1,Nhất quán,4871856,review_id='ojv1NeMghN0rYviQ7pgbFg'; business_id='nB6wv6EY7ExXdehFs6sB4A',user_id,'77n3enAMdlka0pZ82GT9VQ',,
+review,S2,Nhất quán,39066,review_id='fxSLrLoZ-BPT0hIhDNKwPQ'; business_id='hkh5iyDeGLNhu-JUQFRE1Q',date,2011-04-29 10:22:44,user.yelping_since,2014-05-31T16:44:48.000
+review,S2,Nhất quán,59550,review_id='X_ipUNKLJjqxokFuQGXIuw'; business_id='LUXRw-mr9emGL2gw4otvVA',date,2008-07-31 20:46:40,user.yelping_since,2013-10-21T23:29:43.000
+review,S2,Nhất quán,75159,review_id='xAz_RejcyqhOBW_SsXD55A'; business_id='gV89NXiZ3C0RNz1STGoWNQ',date,2009-02-17 20:09:48,user.yelping_since,2010-11-10T21:19:16.000
+review,S2,Nhất quán,93927,review_id='wTWk4CZUp38mTtJi8FFFeQ'; business_id='bxDk3YLoMOTdmmf_4AN_4g',date,2011-08-24 21:49:29,user.yelping_since,2013-10-27T20:39:26.000
+review,S2,Nhất quán,202092,review_id='fm2N3_MvRMfKic-aD8EDKA'; business_id='oLc7k78_YcDMnMCdbC-h1A',date,2013-07-03 01:58:57,user.yelping_since,2013-11-05T16:01:17.000
+review,S2,Nhất quán,217000,review_id='cpUhJ89S26aeRLIJjT1tGQ'; business_id='BIbFD3-d0HUy4C7QzegLrg',date,2012-03-10 18:26:04,user.yelping_since,2013-05-07T08:33:53.000
+review,S2,Nhất quán,242801,review_id='CevLNjp5NLS9W3cSqaz_Yw'; business_id='w2GJl3DxxnQsdiUg_KShWQ',date,2010-09-07 12:39:02,user.yelping_since,2013-11-21T08:25:46.000
+review,S2,Nhất quán,348816,review_id='qJL-3YV4oh9TFJaa7bXjEQ'; business_id='w2GJl3DxxnQsdiUg_KShWQ',date,2010-09-07 12:35:22,user.yelping_since,2013-11-21T08:25:46.000
+review,S2,Nhất quán,631196,review_id='uUnlT-sKOj_2Yic2md-BCQ'; business_id='xukkot9U57iKRGLZbBi7-Q',date,2020-11-01 08:03:15,user.yelping_since,2020-11-01T08:51:12.000
+review,S2,Nhất quán,721943,review_id='4EwKwgR_86zDTQsJUdcujQ'; business_id='kfqgGm2hJUj4NXEkkk1qIA',date,2012-08-08 22:52:17,user.yelping_since,2013-10-25T13:33:15.000
+review,S2,Nhất quán,722013,review_id='Sn73rAGJzG7fwRptHv_JQA'; business_id='kfqgGm2hJUj4NXEkkk1qIA',date,2010-10-07 14:04:50,user.yelping_since,2013-11-06T05:07:54.000
+review,S2,Nhất quán,728955,review_id='pLMRc7T8EE-HsFp9HMq3ug'; business_id='kfqgGm2hJUj4NXEkkk1qIA',date,2011-09-18 15:44:40,user.yelping_since,2013-05-01T15:07:23.000
+review,S2,Nhất quán,749985,review_id='NhvfNFEeFG4vwepaPH0Q-w'; business_id='EtM079Cj7-B3G7jPsGYb_Q',date,2013-01-29 01:15:16,user.yelping_since,2013-12-26T09:41:12.000
+review,S2,Nhất quán,824047,review_id='yWOIgApgR5Spv9hnexdN6w'; business_id='QY5drbmWcMRdKT_1rnEByw',date,2011-08-24 22:17:16,user.yelping_since,2013-10-27T20:39:26.000
+review,S2,Nhất quán,957245,review_id='y1uy8Ud7t5j07PyTbWBAtg'; business_id='rE9X9bRStJHLNW3--YpBgA',date,2012-07-17 20:48:45,user.yelping_since,2014-02-19T20:15:39.000
+review,S2,Nhất quán,978716,review_id='njsIU_rWH-n_X5_TcQfkFA'; business_id='hXvf5a798WvQtFn0Zbh2yw',date,2012-07-07 23:03:17,user.yelping_since,2014-02-19T20:15:39.000
+review,S2,Nhất quán,985355,review_id='Or5XmCbq6osFh_VzYST8yQ'; business_id='Q6K5tpwqOzeewDw5ePlqbw',date,2013-05-05 00:00:40,user.yelping_since,2013-10-21T12:24:35.000
+review,S2,Nhất quán,1034274,review_id='5nh9UHJkfRTuDleW5oROdg'; business_id='a32M9H9nkkPGKTKB5W27NA',date,2012-08-29 09:32:14,user.yelping_since,2013-11-05T15:33:17.000
+review,S2,Nhất quán,1237706,review_id='2yVss6wiORhy0QXezw5cCQ'; business_id='awA0KQacd4k4GUSKP8aliw',date,2011-05-09 22:21:40,user.yelping_since,2013-10-17T15:10:32.000
+review,S2,Nhất quán,1483527,review_id='X30_ZxMxDYeRF4PeeWTimA'; business_id='kbEVlzQLcYS3JSQPG9QMOQ',date,2013-07-20 15:18:46,user.yelping_since,2013-11-25T16:56:55.000
+tip,U2,Duy nhất,29901,user_id='00Cz_vdInMHpTRjqbWjK5Q'; business_id='ncacMQ9n_dSM1cR3c1vTQw',"(user_id, business_id, date, text)","""user_id='00Cz_vdInMHpTRjqbWjK5Q'; business_id='ncacMQ9n_dSM1cR3c1vTQw'; date...",,
+tip,U2,Duy nhất,58887,user_id='47zMh_WgunwRDf7Cx2WyYw'; business_id='J8vz_zwZaxzA585lV_k_vA',"(user_id, business_id, date, text)","""user_id='47zMh_WgunwRDf7Cx2WyYw'; business_id='J8vz_zwZaxzA585lV_k_vA'; date...",,
+tip,U2,Duy nhất,99407,user_id='WQ8shYm0ghNDz97BuHI1fA'; business_id='Sv1MEZP-mMfp8SmE0hwYEA',"(user_id, business_id, date, text)","""user_id='WQ8shYm0ghNDz97BuHI1fA'; business_id='Sv1MEZP-mMfp8SmE0hwYEA'; date...",,
+tip,U2,Duy nhất,126358,user_id='hGxVvXVg7IK4J2aTiGMSIQ'; business_id='5RsVAkDnMrcSbErS6P1eew',"(user_id, business_id, date, text)","""user_id='hGxVvXVg7IK4J2aTiGMSIQ'; business_id='5RsVAkDnMrcSbErS6P1eew'; date...",,
+tip,U2,Duy nhất,129213,user_id='1gDoko0TrN0lnQlMC2JtXw'; business_id='06PmqoU3uY5Vb-BEaMPVfw',"(user_id, business_id, date, text)",'user_id=\'1gDoko0TrN0lnQlMC2JtXw\'; business_id=\'06PmqoU3uY5Vb-BEaMPVfw\'; ...,,
+tip,U2,Duy nhất,139050,user_id='Tf63LdfubjlFm974OrdTXg'; business_id='CyiN_owscPJNvlwul0XJPg',"(user_id, business_id, date, text)","""user_id='Tf63LdfubjlFm974OrdTXg'; business_id='CyiN_owscPJNvlwul0XJPg'; date...",,
+tip,U2,Duy nhất,149001,user_id='3nBDXQT81w91zv8NPke8Mw'; business_id='2JEzWTF9tazzjyzCTsOWQw',"(user_id, business_id, date, text)","""user_id='3nBDXQT81w91zv8NPke8Mw'; business_id='2JEzWTF9tazzjyzCTsOWQw'; date...",,
+tip,U2,Duy nhất,164711,user_id='1gDoko0TrN0lnQlMC2JtXw'; business_id='06PmqoU3uY5Vb-BEaMPVfw',"(user_id, business_id, date, text)",'user_id=\'1gDoko0TrN0lnQlMC2JtXw\'; business_id=\'06PmqoU3uY5Vb-BEaMPVfw\'; ...,,
+tip,U2,Duy nhất,174875,user_id='q46P4WXcdOeIx0yE5keY9Q'; business_id='pWuoHHu0LuVrD0HjadDygg',"(user_id, business_id, date, text)","""user_id='q46P4WXcdOeIx0yE5keY9Q'; business_id='pWuoHHu0LuVrD0HjadDygg'; date...",,
+tip,U2,Duy nhất,178839,user_id='1gDoko0TrN0lnQlMC2JtXw'; business_id='06PmqoU3uY5Vb-BEaMPVfw',"(user_id, business_id, date, text)",'user_id=\'1gDoko0TrN0lnQlMC2JtXw\'; business_id=\'06PmqoU3uY5Vb-BEaMPVfw\'; ...,,
+tip,U2,Duy nhất,186949,user_id='CJXkxjoV4VbJ3fagz2ZnqQ'; business_id='U4yrxSpqLaPrGqcqok2vJg',"(user_id, business_id, date, text)","""user_id='CJXkxjoV4VbJ3fagz2ZnqQ'; business_id='U4yrxSpqLaPrGqcqok2vJg'; date...",,
+tip,U2,Duy nhất,188459,user_id='saQQmDQQJ14BVkm_sg53UA'; business_id='sk2lZI4zmuGAccd3DLCnBw',"(user_id, business_id, date, text)","""user_id='saQQmDQQJ14BVkm_sg53UA'; business_id='sk2lZI4zmuGAccd3DLCnBw'; date...",,
+tip,U2,Duy nhất,198524,user_id='OrkHIX-BA2FVVG7v0VbeAg'; business_id='TfVWvcKdpqBconG-fRzMyg',"(user_id, business_id, date, text)","""user_id='OrkHIX-BA2FVVG7v0VbeAg'; business_id='TfVWvcKdpqBconG-fRzMyg'; date...",,
+tip,U2,Duy nhất,209507,user_id='y_PMpgAxTWUIYAmzfFc6VA'; business_id='Bw0cpnfI-Y9QmjWzqS-oFg',"(user_id, business_id, date, text)","""user_id='y_PMpgAxTWUIYAmzfFc6VA'; business_id='Bw0cpnfI-Y9QmjWzqS-oFg'; date...",,
+tip,U2,Duy nhất,212824,user_id='BM2NqcZTj8XltGZlCSzvQQ'; business_id='sXVPF8-hZ6k8zK2d1O6hNQ',"(user_id, business_id, date, text)",'user_id=\'BM2NqcZTj8XltGZlCSzvQQ\'; business_id=\'sXVPF8-hZ6k8zK2d1O6hNQ\'; ...,,
+tip,U2,Duy nhất,216699,user_id='26fbXLwwBcP2EC6MaffBfA'; business_id='9DhjKaR2f9wKATnUvxBAgg',"(user_id, business_id, date, text)","""user_id='26fbXLwwBcP2EC6MaffBfA'; business_id='9DhjKaR2f9wKATnUvxBAgg'; date...",,
+tip,U2,Duy nhất,233302,user_id='pJ8QYnUYb83Qn80aMOTjNQ'; business_id='PVRs2-0uQYqfdhoCidwA_w',"(user_id, business_id, date, text)","""user_id='pJ8QYnUYb83Qn80aMOTjNQ'; business_id='PVRs2-0uQYqfdhoCidwA_w'; date...",,
+tip,U2,Duy nhất,244474,user_id='lajFU_Rs3kn7Gbt5REmKsg'; business_id='kIiFXhJY5mymV8_25A7jrA',"(user_id, business_id, date, text)","""user_id='lajFU_Rs3kn7Gbt5REmKsg'; business_id='kIiFXhJY5mymV8_25A7jrA'; date...",,
+tip,U2,Duy nhất,250359,user_id='SNZJNz1WEIMECEk-TAYADQ'; business_id='6Gx45ltNNZvjzVBO6ZgVOg',"(user_id, business_id, date, text)","""user_id='SNZJNz1WEIMECEk-TAYADQ'; business_id='6Gx45ltNNZvjzVBO6ZgVOg'; date...",,
+tip,U2,Duy nhất,322058,user_id='hUF0HFsA3--dHKfKmDxqLw'; business_id='0wQCEcpZ57TmTm6EmEDsIw',"(user_id, business_id, date, text)","""user_id='hUF0HFsA3--dHKfKmDxqLw'; business_id='0wQCEcpZ57TmTm6EmEDsIw'; date...",,
+user,C7,Đầy đủ,4,user_id='hA5lMy-EnncsH4JoR-hFGQ',elite,'',,
+user,C7,Đầy đủ,6,user_id='cxuxXkcihfCbqt5Byrup8Q',elite,'',,
+user,C7,Đầy đủ,7,user_id='E9kcWJdJUHuTKfQurPljwA',elite,'',,
+user,C7,Đầy đủ,8,user_id='lO1iq-f75hnPNZkTy3Zerg',elite,'',,
+user,C7,Đầy đủ,9,user_id='AUi8MPWJ0mLkMfwbui27lg',elite,'',,
+user,C7,Đầy đủ,10,user_id='iYzhPPqnrjJkg1JHZyMhzA',elite,'',,
+user,C7,Đầy đủ,12,user_id='vVukUtqoLF5BvH_VtQFNoA',elite,'',,
+user,C7,Đầy đủ,13,user_id='_crIokUeTCHVK_JVOy-0qQ',elite,'',,
+user,C7,Đầy đủ,14,user_id='1McG5Rn_UDkmlkZOrsdptg',elite,'',,
+user,C7,Đầy đủ,16,user_id='fJZO_skqpnhk1kvomI4dmA',elite,'',,
+user,C7,Đầy đủ,17,user_id='x7YtLnBW2dUnrrpwaofVQQ',elite,'',,
+user,C7,Đầy đủ,19,user_id='VcLRGCG_VbAo8MxOm76jzA',elite,'',,
+user,C7,Đầy đủ,20,user_id='1L3O2CUTk27SnmqyPBWQdQ',elite,'',,
+user,C7,Đầy đủ,21,user_id='v7DwnrjzuTk7pXmuBPZnsg',elite,'',,
+user,C7,Đầy đủ,26,user_id='kggqL33iZjeHmUn1Rtdjzg',elite,'',,
+user,C7,Đầy đủ,27,user_id='wrNOKq0hOlz8q1N_YCNXCA',elite,'',,
+user,C7,Đầy đủ,30,user_id='zjPbmmvO4QzE_nE9uErLTg',elite,'',,
+user,C7,Đầy đủ,35,user_id='XLs_PhrJ7Qwn_RfgMM7Djw',elite,'',,
+user,C7,Đầy đủ,40,user_id='KXZ8A8h7Q9ZJRU5TM9asjw',elite,'',,
+user,C7,Đầy đủ,41,user_id='5cVgAicAhCTSrKzsKDuTdw',elite,'',,
+user,C7,Đầy đủ,138689,user_id='EzPKLvohyW6RfRAuv9ppuQ',friends,[],,
+user,C7,Đầy đủ,138690,user_id='60l9WbYIyqwl0j-1cAO7Dw',friends,[],,
+user,C7,Đầy đủ,138691,user_id='rHL3K9zBk3TwqiKL44Li1A',friends,[],,
+user,C7,Đầy đủ,138692,user_id='qlEBocL9zba4PoVpXKtefw',friends,[],,
+user,C7,Đầy đủ,138693,user_id='RE_g-IxTW-7Bwgj0A5CwLA',friends,[],,
+user,C7,Đầy đủ,138694,user_id='rkIDEirOUKJMyB2sRGRoiQ',friends,[],,
+user,C7,Đầy đủ,138695,user_id='8EaQ8E2ZawuP-Sn4oYyTDg',friends,[],,
+user,C7,Đầy đủ,138696,user_id='YaESpEdFDxsp8A1c7LK5NQ',friends,[],,
+user,C7,Đầy đủ,138697,user_id='Hx9qbvtCsQAB91Qherdk3Q',friends,[],,
+user,C7,Đầy đủ,138698,user_id='zUdmsyWCgAIwIYeGYAOD2w',friends,[],,
+user,C7,Đầy đủ,138699,user_id='pTanDHXLpVx0RCXY5Hqgkg',friends,[],,
+user,C7,Đầy đủ,138700,user_id='aCt9vWfQGk23I2nyTLkOxw',friends,[],,
+user,C7,Đầy đủ,138701,user_id='ipAU71PVtLrfWZzqx44fng',friends,[],,
+user,C7,Đầy đủ,138702,user_id='_4AYI9jiJfp6RKIXwLb0dg',friends,[],,
+user,C7,Đầy đủ,138703,user_id='dD17Kl-_8GUYXWaEOsd4wg',friends,[],,
+user,C7,Đầy đủ,138704,user_id='49w4if9erft8io12ziWQtA',friends,[],,
+user,C7,Đầy đủ,138705,user_id='iTiomB-ynFMysGQrg03FPA',friends,[],,
+user,C7,Đầy đủ,138706,user_id='4u97Y9s9sCC1z-AufbpdUw',friends,[],,
+user,C7,Đầy đủ,138707,user_id='tcr1OnhwlmXK_gzgLcEsng',friends,[],,
+user,C7,Đầy đủ,138708,user_id='VsDZqPXhm9-IH0RUOl6GMg',friends,[],,
+user,V9,Hợp lệ,1,user_id='j14WgRoU_-2ZE1aw1dXrJg',elite,"'2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,18,user_id='QF1Kuhs8iwLWANNZxebTow',elite,"'2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,29,user_id='4ZaqBJqt7laPPs8xfWvr6A',elite,"'2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,32,user_id='NIhcRW6DWvk1JQhDhXwgOQ',elite,"'2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,...",,
+user,V9,Hợp lệ,61,user_id='lquc6IF6uGIeRomDLu9UnA',elite,"'2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,64,user_id='X7SwvRrnsZ8I3bEPGELpnQ',elite,"'2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,69,user_id='q7iWal_rXNSHkHeCMMvZxQ',elite,"'2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,73,user_id='KxrKVxdXGkfMJ9XwJZzoLQ',elite,"'2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,74,user_id='VHdY6oG2JPVNjihWhOooAQ',elite,"'2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,...",,
+user,V9,Hợp lệ,75,user_id='eqS5lpxVMEzS_xaGP8NW_w',elite,"'2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,82,user_id='om5ZiponkpRqUNa3pVPiRg',elite,"'2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,...",,
+user,V9,Hợp lệ,99,user_id='UQFE3BT1rsIYrcDvu_XVow',elite,"'2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,...",,
+user,V9,Hợp lệ,105,user_id='3zxy3LVBV3ttxoYbY4rQ8A',elite,"'2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,111,user_id='I7YQFiIsO82eliq8nqsLfA',elite,"'2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,117,user_id='0G-QF457q_0Z_jKqh6xWiA',elite,"'2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,125,user_id='xwLpDq-rYnyObtBZCD0Wgg',elite,"'2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,136,user_id='ITa3vh5ERI90G_WP4SmGUQ',elite,"'2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,142,user_id='2Od6rQYNvPUXQC2Go7vIqg',elite,"'2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,146,user_id='ZhK2xIa4f73JZfua7IP8vA',elite,"'2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,2021'",,
+user,V9,Hợp lệ,152,user_id='P5bUL3Engv-2z6kKohB6qQ',elite,"'2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,20,20,...",,
+user,S3,Nhất quán,562,user_id='xyad5PXaHTdKrdNClXbMqQ',review_count,138,review_n_by_user,139.0
+user,S3,Nhất quán,732,user_id='PC-jDSOzMz8gN5RkayJBEA',review_count,12,review_n_by_user,13.0
+user,S3,Nhất quán,1260,user_id='AXRIxSSL-eumsX4rOh48Rg',review_count,7,review_n_by_user,8.0
+user,S3,Nhất quán,1278,user_id='chq7UyerSDImd48KUj7j3A',review_count,33,review_n_by_user,34.0
+user,S3,Nhất quán,1284,user_id='rxNku8x9n5F68t0RF266yw',review_count,24,review_n_by_user,25.0
+user,S3,Nhất quán,2061,user_id='nFEZwi2A_TJVrtp3pePDPQ',review_count,32,review_n_by_user,33.0
+user,S3,Nhất quán,2461,user_id='_5swqa5xUdLar-Q-bBZSDA',review_count,80,review_n_by_user,93.0
+user,S3,Nhất quán,2469,user_id='toQe9adQWV7iC7KM_eugsA',review_count,210,review_n_by_user,213.0
+user,S3,Nhất quán,2574,user_id='aVwveJmgYeeN-ZnDX_shBw',review_count,24,review_n_by_user,26.0
+user,S3,Nhất quán,2870,user_id='4YUabV9xHtvtxw2BLfl1AQ',review_count,190,review_n_by_user,210.0
+user,S3,Nhất quán,3185,user_id='AF2wygvqImI9gbFijr13rw',review_count,231,review_n_by_user,241.0
+user,S3,Nhất quán,3579,user_id='BQX9nEi5q8KSqiiMs921Iw',review_count,37,review_n_by_user,38.0
+user,S3,Nhất quán,4110,user_id='RFt6h9TWm5bYdz6vn5EQiw',review_count,47,review_n_by_user,48.0
+user,S3,Nhất quán,4368,user_id='A7cl9FfREOTi0Uy-AT1r5g',review_count,84,review_n_by_user,93.0
+user,S3,Nhất quán,4516,user_id='bYENop4BuQepBjM1-BI3fA',review_count,1562,review_n_by_user,1578.0
+user,S3,Nhất quán,4669,user_id='-eitKtZRtkSO2mePx5O5xw',review_count,4,review_n_by_user,5.0
+user,S3,Nhất quán,4679,user_id='phqyE0FpoJtJMubLzWXwxQ',review_count,43,review_n_by_user,45.0
+user,S3,Nhất quán,4901,user_id='suVlmewpek22Gz1BZ1ONcw',review_count,61,review_n_by_user,66.0
+user,S3,Nhất quán,5089,user_id='3dRVjqp-fnlwaKcmFT3eGw',review_count,18,review_n_by_user,19.0
+user,S3,Nhất quán,5163,user_id='5vIQn1_g5_mXgDoas30KXg',review_count,60,review_n_by_user,72.0
+user,S8,Nhất quán,7,user_id='E9kcWJdJUHuTKfQurPljwA',average_stars,3.73,review_mean_by_user,3.0
+user,S8,Nhất quán,8,user_id='lO1iq-f75hnPNZkTy3Zerg',average_stars,4.04,review_mean_by_user,3.5
+user,S8,Nhất quán,10,user_id='iYzhPPqnrjJkg1JHZyMhzA',average_stars,4.0,review_mean_by_user,5.0
+user,S8,Nhất quán,13,user_id='_crIokUeTCHVK_JVOy-0qQ',average_stars,3.08,review_mean_by_user,5.0
+user,S8,Nhất quán,15,user_id='SgiBkhXeqIKl1PlFpZOycQ',average_stars,3.75,review_mean_by_user,4.3076923076923075
+user,S8,Nhất quán,30,user_id='zjPbmmvO4QzE_nE9uErLTg',average_stars,3.91,review_mean_by_user,3.0
+user,S8,Nhất quán,33,user_id='aF3mEXDJuILmeF-9PcxAsQ',average_stars,3.53,review_mean_by_user,5.0
+user,S8,Nhất quán,34,user_id='baSDvZweZk6qLY_kHPvYzQ',average_stars,3.63,review_mean_by_user,4.666666666666667
+user,S8,Nhất quán,37,user_id='KYBEVBAP7QUlt1LjmatTJg',average_stars,3.81,review_mean_by_user,3.0
+user,S8,Nhất quán,40,user_id='KXZ8A8h7Q9ZJRU5TM9asjw',average_stars,3.54,review_mean_by_user,4.133333333333334
+user,S8,Nhất quán,41,user_id='5cVgAicAhCTSrKzsKDuTdw',average_stars,3.26,review_mean_by_user,4.0
+user,S8,Nhất quán,44,user_id='sgCZmOkdHBiaKaE6ZKVBaA',average_stars,3.19,review_mean_by_user,4.857142857142857
+user,S8,Nhất quán,46,user_id='bNJmIcxc_FRWxftI_vhpbg',average_stars,3.06,review_mean_by_user,4.666666666666667
+user,S8,Nhất quán,51,user_id='hluQms-QLpaqZASKlDCJHw',average_stars,4.43,review_mean_by_user,5.0
+user,S8,Nhất quán,65,user_id='YuRfPsIME6v5qYr3GfFzrg',average_stars,3.37,review_mean_by_user,4.0
+user,S8,Nhất quán,67,user_id='n8bbgZJLENE4dC4E743ukQ',average_stars,3.5,review_mean_by_user,4.333333333333333
+user,S8,Nhất quán,73,user_id='KxrKVxdXGkfMJ9XwJZzoLQ',average_stars,3.81,review_mean_by_user,3.2222222222222223
+user,S8,Nhất quán,78,user_id='YJ6S9R50pE0FsSDn3Z8j2g',average_stars,3.74,review_mean_by_user,3.0
+user,S8,Nhất quán,81,user_id='3xrb0LpbaJ24Pkdyd55U8Q',average_stars,3.8,review_mean_by_user,1.0
+user,S8,Nhất quán,84,user_id='lRTLBbMLzDrnuAdEVSLrqA',average_stars,3.77,review_mean_by_user,2.6666666666666665

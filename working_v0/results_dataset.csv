@@ -1,0 +1,6 @@
+﻿aspect,n_tables,tables,score,grade,flag,flagged_tables
+Đầy đủ,5,"business,checkin,review,tip,user",0.9999707341731738,Tốt,False,
+Duy nhất,5,"business,checkin,review,tip,user",0.9998381855548228,Tốt,False,
+Nhất quán,5,"business,checkin,review,tip,user",0.9734953774263568,Chú ý,False,
+Kịp thời,4,"checkin,review,tip,user",1.0,Tốt,False,
+Hợp lệ,5,"business,checkin,review,tip,user",0.9994258999445117,Tốt,False,

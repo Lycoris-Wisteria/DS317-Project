@@ -1,0 +1,148 @@
+# =====================================================================================
+# Cấu hình đo chất lượng dữ liệu Yelp - bám theo "Báo cáo đo lường CLDL" (Phần A, Phụ lục F)
+# và TEMPO-DQ (lớp Conventional). Đây là NGUỒN DUY NHẤT của quy tắc: thêm/bớt/sửa ở đây, không sửa code.
+#
+# Mã quy tắc lấy đúng theo báo cáo: C=Đầy đủ  V=Hợp lệ  U=Duy nhất  S=Nhất quán  T=Kịp thời.
+#   level: star    = quy tắc cứng ★ (ngưỡng Tốt >= 0,999 / Tệ < 0,99; mọi vi phạm đều cần xử lý)
+#          general = dùng ngưỡng chung của khía cạnh (Bảng A.1)
+#          report  = chỉ báo cáo, không xếp hạng, không vào điểm khía cạnh
+#   scope: nội bảng | liên bảng           from_report: false = quy tắc BỔ SUNG ngoài báo cáo
+#   thresholds: ngưỡng riêng của quy tắc (ví dụ U1 "Tốt = 1", S7/S8 theo ngưỡng Chính xác)
+# =====================================================================================
+run:
+  data_dir: "D:/DS317 - Dữ liệu/Data/processed/parquet"   # đổi bằng --data-dir khi chạy
+  out_dir: "working"
+  label: "KQ_v0"            # nhãn lần đo (KQ_v0 = dữ liệu gốc; sau cải thiện đặt KQ_v1, ...)
+  n_sample: 20              # số ô lỗi mẫu lưu cho mỗi quy tắc
+
+reference:
+  T_ref: "2022-01-19"             # ngày Yelp xuất dữ liệu (snapshot) - cận trên của khung Kịp thời
+  T_start: "2005-02-16"           # cận dưới của khung Kịp thời theo báo cáo (T1, T2); nguồn cần xác nhận
+  datetime_format: "%Y-%m-%d %H:%M:%S"
+
+# Bảng A.1 - ngưỡng chung. Tốt: score >= good | Chú ý: bad <= score < good | Tệ: score < bad
+thresholds:
+  star: {good: 0.999, bad: 0.99}
+  aspect:
+    Đầy đủ:    {good: 0.98, bad: 0.95}
+    Hợp lệ:    {good: 0.99, bad: 0.95}
+    Duy nhất:  {good: 0.99, bad: 0.95}
+    Nhất quán: {good: 0.99, bad: 0.95}
+    Chính xác: {good: 0.90, bad: 0.80}
+    Kịp thời:  {good: 0.99, bad: 0.95}
+
+tables:
+  # ------------------------------------------------------------------------- BUSINESS
+  business:
+    file: business.parquet
+    grain: một cơ sở kinh doanh (POI)
+    keys: [business_id, name]
+    not_applicable:
+      Chính xác: "không có nguồn tham chiếu độc lập tin cậy (báo cáo mục F.1); S7 là đối chiếu chéo, xếp ở Nhất quán"
+      Kịp thời: "bảng không có thuộc tính thời gian (chỉ có T4 tham khảo)"
+    rules:
+      - {id: C1, aspect: Đầy đủ, level: star, scope: nội bảng, type: not_null, columns: [business_id, name, latitude, longitude, stars, review_count, is_open], desc: "business_id, name, latitude, longitude, stars, review_count, is_open ≠ null"}
+      - {id: C2, aspect: Đầy đủ, level: general, scope: nội bảng, type: not_null, columns: [city, state, postal_code, categories], desc: "city, state, postal_code, categories ≠ null"}
+      - {id: C7, aspect: Đầy đủ, level: report, scope: nội bảng, type: not_null, columns: [address, hours, attributes], desc: "tỷ lệ thiếu của address, hours, attributes (chỉ báo cáo)"}
+      - {id: V0, aspect: Hợp lệ, level: general, scope: nội bảng, type: dtype, kind: numeric, columns: [latitude, longitude, stars, review_count, is_open], from_report: false, desc: "(bổ sung) ô số phải ép được số, nếu không V2-V5 sẽ bỏ qua ô đó"}
+      - {id: V1, aspect: Hợp lệ, level: star, scope: nội bảng, type: regex, column: business_id, pattern: '[A-Za-z0-9_-]{22}', desc: "business_id khớp chuỗi 22 ký tự [A-Za-z0-9_-]"}
+      - {id: V2, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, columns: {latitude: {min: 27, max: 54}, longitude: {min: -121, max: -74}}, desc: "latitude ∈ [27; 54], longitude ∈ [-121; -74]"}
+      - {id: V3, aspect: Hợp lệ, level: star, scope: nội bảng, type: enum, column: stars, values: [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5], desc: "stars ∈ {1; 1,5; …; 5}"}
+      - {id: V4, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, column: review_count, min: 0, integer: true, desc: "review_count là số nguyên ≥ 0"}
+      - {id: V5, aspect: Hợp lệ, level: star, scope: nội bảng, type: enum, column: is_open, values: [0, 1], desc: "is_open ∈ {0, 1}"}
+      - {id: V8, aspect: Hợp lệ, level: general, scope: nội bảng, type: regex, column: state, pattern: '[A-Z]{2}', desc: "state là chuỗi 2 ký tự [A-Z] (ngoại lệ được ghi nhận riêng ở cột top_values)"}
+      - {id: V10, aspect: Hợp lệ, level: general, scope: nội bảng, type: hours_format, column: hours, null_tokens: ["None"], desc: "hours có dạng H:M-H:M; khung 0:0-0:0 chỉ gắn nhãn 'cần kiểm chứng' (n_flagged), không tính lỗi"}
+      - {id: V12a, aspect: Hợp lệ, level: general, scope: nội bảng, type: str_type, column: postal_code, desc: "postal_code giữ kiểu chuỗi"}
+      - {id: V12b, aspect: Hợp lệ, level: general, scope: nội bảng, type: json_object, column: attributes, null_tokens: ["None"], desc: "attributes parse được thành object"}
+      - {id: U1, aspect: Duy nhất, level: star, scope: nội bảng, type: unique, keys: [business_id], thresholds: {good: 1.0}, desc: "business_id không trùng (Tốt = 1)"}
+      - {id: U3, aspect: Duy nhất, level: general, scope: nội bảng, type: unique, keys: [name, address, postal_code], desc: "bộ (name, address, postal_code) không lặp; name trùng riêng lẻ không tính lỗi"}
+      - {id: S5a, aspect: Nhất quán, level: general, scope: nội bảng, type: city_spelling, column: city, desc: "city chỉ có một cách viết chuẩn sau chuẩn hóa (trim, lower, bỏ dấu)"}
+      - {id: S5b, aspect: Nhất quán, level: general, scope: nội bảng, type: city_state, column: city, state: state, min_total: 20, share_min: 0.01, desc: "city thuộc đúng state (cặp city–state không hiếm; city >= 20 dòng, cặp chiếm >= 1%)"}
+      - {id: S6, aspect: Nhất quán, level: report, scope: liên bảng, type: ref_compare, column: review_count, key: business_id, ref: review_n_by_business, fill_missing_ref: 0, tol_abs: 0, tol_rel: 0, aggregate: true, desc: "review_count so với số review trong file (chỉ báo cáo, chưa xếp hạng; kèm tổng và tỷ lệ)"}
+      - {id: S7, aspect: Nhất quán, level: general, scope: liên bảng, type: ref_compare, column: stars, key: business_id, ref: review_mean_by_business, tol_abs: 0.5, thresholds: {good: 0.90, bad: 0.80}, desc: "stars lệch ≤ 0,5 so với trung bình review.stars của POI trong file review"}
+      - {id: T4, aspect: Kịp thời, level: report, scope: liên bảng, type: activity_rate, column: is_open, key: business_id, months: 24, desc: "tỷ lệ POI is_open = 1 có ít nhất một review/tip/check-in trong 24 tháng trước T_ref (chỉ báo cáo)"}
+
+  # ------------------------------------------------------------------------- CHECKIN (một dòng = một sự kiện check-in)
+  # Nếu dữ liệu là dạng danh sách (mỗi business một dòng, cột date chứa nhiều mốc): đổi checkin_time -> date,
+  # thêm `delimiter: ","` vào V6 và T3, và đổi khóa U1 thành [business_id].
+  checkin:
+    file: checkin_events.parquet
+    grain: một sự kiện check-in (business_id, checkin_time)
+    keys: [business_id, checkin_time]
+    time_columns: [checkin_time]
+    not_applicable:
+      Chính xác: "không có nguồn tham chiếu độc lập tin cậy (báo cáo mục F.1)"
+    rules:
+      - {id: C5, aspect: Đầy đủ, level: star, scope: nội bảng, type: not_null, columns: [business_id, checkin_time], desc: "business_id ≠ null, mốc check-in không rỗng"}
+      - {id: C8, aspect: Đầy đủ, level: report, scope: liên bảng, type: coverage, column: business_id, ref: business.business_id, desc: "độ phủ checkin/business (chỉ báo cáo)"}
+      - {id: V1, aspect: Hợp lệ, level: star, scope: nội bảng, type: regex, column: business_id, pattern: '[A-Za-z0-9_-]{22}', desc: "business_id khớp chuỗi 22 ký tự"}
+      - {id: V6, aspect: Hợp lệ, level: star, scope: nội bảng, type: dtype, kind: datetime, column: checkin_time, desc: "mốc check-in đúng định dạng YYYY-MM-DD HH:MM:SS"}
+      - {id: U1, aspect: Duy nhất, level: star, scope: nội bảng, type: unique, keys: [business_id, checkin_time], thresholds: {good: 1.0}, desc: "cặp (business_id, checkin_time) không trùng (Tốt = 1)"}
+      - {id: S1, aspect: Nhất quán, level: star, scope: liên bảng, type: fk, column: business_id, ref: business.business_id, desc: "business_id ∈ business"}
+      - {id: T3, aspect: Kịp thời, level: star, scope: nội bảng, type: in_window, column: checkin_time, use_start: false, desc: "mọi mốc check-in ≤ T_ref"}
+
+  # ------------------------------------------------------------------------- REVIEW
+  review:
+    file: review.parquet
+    grain: một review
+    keys: [review_id, business_id]
+    heavy_columns: [text]               # chỉ tính Đầy đủ theo batch, không nạp vào RAM
+    time_columns: [date]
+    not_applicable:
+      Chính xác: "không có nguồn tham chiếu độc lập tin cậy (báo cáo mục F.1)"
+    rules:
+      - {id: C3, aspect: Đầy đủ, level: star, scope: nội bảng, type: not_null, columns: [review_id, user_id, business_id, stars, useful, funny, cool, text, date], desc: "cả 9 trường ≠ null, text dài ≥ 1"}
+      - {id: V0, aspect: Hợp lệ, level: general, scope: nội bảng, type: dtype, kind: numeric, columns: [stars, useful, funny, cool], from_report: false, desc: "(bổ sung) ô số phải ép được số"}
+      - {id: V1, aspect: Hợp lệ, level: star, scope: nội bảng, type: regex, columns: [review_id, user_id, business_id], pattern: '[A-Za-z0-9_-]{22}', desc: "review_id, user_id, business_id khớp chuỗi 22 ký tự"}
+      - {id: V3, aspect: Hợp lệ, level: star, scope: nội bảng, type: enum, column: stars, values: [1, 2, 3, 4, 5], desc: "review.stars ∈ {1…5} (số nguyên)"}
+      - {id: V4, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, columns: [useful, funny, cool], min: 0, integer: true, desc: "useful, funny, cool là số nguyên ≥ 0"}
+      - {id: V6, aspect: Hợp lệ, level: star, scope: nội bảng, type: dtype, kind: datetime, column: date, desc: "date đúng định dạng YYYY-MM-DD HH:MM:SS"}
+      - {id: U1, aspect: Duy nhất, level: star, scope: nội bảng, type: unique, keys: [review_id], thresholds: {good: 1.0}, desc: "review_id không trùng (Tốt = 1)"}
+      - {id: U4, aspect: Duy nhất, level: general, scope: nội bảng, type: unique, keys: [user_id, business_id, date], desc: "bộ (user_id, business_id, date) không lặp"}
+      - {id: S1, aspect: Nhất quán, level: star, scope: liên bảng, type: fk, columns: {business_id: {ref: business.business_id}, user_id: {ref: user.user_id}}, desc: "business_id ∈ business; user_id ∈ user"}
+      - {id: S2, aspect: Nhất quán, level: general, scope: liên bảng, type: date_ge_lookup, column: date, key: user_id, lookup: user.yelping_since, tolerance_days: 0, desc: "review.date ≥ user.yelping_since của chính người viết"}
+      - {id: T1, aspect: Kịp thời, level: star, scope: nội bảng, type: in_window, column: date, desc: "review.date ∈ [T_start; T_ref]"}
+
+  # ------------------------------------------------------------------------- TIP
+  tip:
+    file: tip.parquet
+    grain: một tip
+    keys: [user_id, business_id]
+    time_columns: [date]
+    not_applicable:
+      Chính xác: "không có nguồn tham chiếu độc lập tin cậy (báo cáo mục F.1)"
+    rules:
+      - {id: C4, aspect: Đầy đủ, level: star, scope: nội bảng, type: not_null, columns: [user_id, business_id, text, date], desc: "user_id, business_id, text, date ≠ null"}
+      - {id: V0, aspect: Hợp lệ, level: general, scope: nội bảng, type: dtype, kind: numeric, column: compliment_count, from_report: false, desc: "(bổ sung) ô số phải ép được số"}
+      - {id: V1, aspect: Hợp lệ, level: star, scope: nội bảng, type: regex, columns: [user_id, business_id], pattern: '[A-Za-z0-9_-]{22}', desc: "user_id, business_id khớp chuỗi 22 ký tự"}
+      - {id: V4, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, column: compliment_count, min: 0, integer: true, desc: "compliment_count là số nguyên ≥ 0"}
+      - {id: V6, aspect: Hợp lệ, level: star, scope: nội bảng, type: dtype, kind: datetime, column: date, desc: "date đúng định dạng YYYY-MM-DD HH:MM:SS"}
+      - {id: U2, aspect: Duy nhất, level: general, scope: nội bảng, type: unique, keys: [user_id, business_id, date, text], desc: "tip không có khóa riêng nên bộ (user_id, business_id, date, text) không lặp"}
+      - {id: S1, aspect: Nhất quán, level: star, scope: liên bảng, type: fk, columns: {business_id: {ref: business.business_id}, user_id: {ref: user.user_id}}, desc: "business_id ∈ business; user_id ∈ user"}
+      - {id: S2, aspect: Nhất quán, level: general, scope: liên bảng, type: date_ge_lookup, column: date, key: user_id, lookup: user.yelping_since, tolerance_days: 0, desc: "tip.date ≥ user.yelping_since của chính người viết"}
+      - {id: T1, aspect: Kịp thời, level: star, scope: nội bảng, type: in_window, column: date, desc: "tip.date ∈ [T_start; T_ref]"}
+
+  # ------------------------------------------------------------------------- USER
+  user:
+    file: user.parquet
+    grain: một người dùng
+    keys: [user_id, name]
+    time_columns: [yelping_since]
+    allow_empty_columns: [elite]        # chỉ dùng cho điểm đối chiếu Eq.2: elite = '' nghĩa là chưa từng Elite
+    not_applicable:
+      Chính xác: "không có nguồn tham chiếu độc lập tin cậy (báo cáo mục F.1); S8 là đối chiếu chéo, xếp ở Nhất quán"
+    rules:
+      - {id: C6, aspect: Đầy đủ, level: star, scope: nội bảng, type: not_null, columns: [user_id, yelping_since, review_count, average_stars], desc: "user_id, yelping_since, review_count, average_stars ≠ null"}
+      - {id: C7, aspect: Đầy đủ, level: report, scope: nội bảng, type: not_null, columns: {elite: {}, friends: {missing_tokens: ["None", "[]"]}}, desc: "tỷ lệ 'không có' của elite ('' ) và friends ('None' hoặc '[]') sau chuẩn hóa (chỉ báo cáo)"}
+      - {id: V0, aspect: Hợp lệ, level: general, scope: nội bảng, type: dtype, kind: numeric, columns: [review_count, useful, funny, cool, fans, average_stars], columns_prefix: compliment_, from_report: false, desc: "(bổ sung) ô số phải ép được số"}
+      - {id: V1, aspect: Hợp lệ, level: star, scope: nội bảng, type: regex, column: user_id, pattern: '[A-Za-z0-9_-]{22}', desc: "user_id khớp chuỗi 22 ký tự"}
+      - {id: V4, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, columns: [review_count, useful, funny, cool, fans], columns_prefix: compliment_, min: 0, integer: true, desc: "review_count, useful, funny, cool, fans, compliment_* là số nguyên ≥ 0"}
+      - {id: V6, aspect: Hợp lệ, level: star, scope: nội bảng, type: dtype, kind: datetime, column: yelping_since, desc: "yelping_since đúng định dạng YYYY-MM-DD HH:MM:SS"}
+      - {id: V7, aspect: Hợp lệ, level: star, scope: nội bảng, type: range, column: average_stars, min: 1, max: 5, desc: "average_stars ∈ [1; 5]"}
+      - {id: V9, aspect: Hợp lệ, level: general, scope: nội bảng, type: regex, column: elite, allow_empty: true, pattern: '\s*(\d{4}(\s*,\s*\d{4})*)?\s*', desc: "elite là '' hoặc danh sách năm 4 chữ số (bắt lỗi dạng '20,20')"}
+      - {id: V11, aspect: Hợp lệ, level: general, scope: nội bảng, type: id_list, column: friends, null_tokens: ["None"], desc: "friends là danh sách rỗng ('None', '[]') hoặc mọi phần tử là user_id đúng định dạng 22 ký tự (thêm max_rows để lấy mẫu nếu RAM hạn chế)"}
+      - {id: U1, aspect: Duy nhất, level: star, scope: nội bảng, type: unique, keys: [user_id], thresholds: {good: 1.0}, desc: "user_id không trùng (Tốt = 1)"}
+      - {id: S3, aspect: Nhất quán, level: general, scope: liên bảng, type: ref_compare, column: review_count, key: user_id, ref: review_n_by_user, fill_missing_ref: 0, mode: at_least, tol_abs: 0, tol_rel: 0, desc: "user.review_count ≥ số review của user đó có trong file review (file là tập con)"}
+      - {id: S4, aspect: Nhất quán, level: general, scope: nội bảng, type: elite_years, column: elite, other: yelping_since, desc: "elite: mỗi năm ≥ năm của yelping_since và ≤ 2022"}
+      - {id: S8, aspect: Nhất quán, level: general, scope: liên bảng, type: ref_compare, column: average_stars, key: user_id, ref: review_mean_by_user, tol_abs: 0.5, thresholds: {good: 0.90, bad: 0.80}, desc: "average_stars lệch ≤ 0,5 so với trung bình review.stars của user trong file review"}
+      - {id: T2, aspect: Kịp thời, level: star, scope: nội bảng, type: in_window, column: yelping_since, t_start: "2004-07-01", desc: "user.yelping_since ∈ [2004-07-01; T_ref] (cận dưới là thời điểm Yelp thành lập 07/2004, sớm hơn T_start của review; cần nhóm xác nhận)"}
