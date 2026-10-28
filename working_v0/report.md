@@ -1,7 +1,7 @@
 # Báo cáo chất lượng dữ liệu Yelp — KQ_v0
 
-- Chạy lúc 2026-10-28T07:59:06 · mốc snapshot T_ref = 2022-01-19 · khung Kịp thời [2005-02-16; 2022-01-19] · code 2.0.0
-- Cấu hình `config.yaml` (sha256 1f83eee8c825)
+- Chạy lúc 2026-10-28T22:01:03 · mốc snapshot T_ref = 2022-01-19 · khung Kịp thời [2005-02-16; 2022-01-19] · code 2.0.0
+- Cấu hình `c:\Users\Yoga\OneDrive\Desktop\UIT code\ds317\mine\DS317-Project\config.yaml` (sha256 1f83eee8c825)
 - **Cách tính** (báo cáo CLDL, A.1): điểm quy tắc = 1 − (số ô lỗi / tổng số ô được xét); điểm khía cạnh = trung bình các quy tắc cùng khía cạnh (bỏ quy tắc *chỉ báo cáo*); khía cạnh bị gắn cờ ⚑ nếu có quy tắc ★ ở mức Tệ dù điểm trung bình cao.
 - **Xếp hạng** (Bảng A.1): Đầy đủ: Tốt ≥ 0,98, Tệ < 0,95; Hợp lệ: Tốt ≥ 0,99, Tệ < 0,95; Duy nhất: Tốt ≥ 0,99, Tệ < 0,95; Nhất quán: Tốt ≥ 0,99, Tệ < 0,95; Chính xác: Tốt ≥ 0,90, Tệ < 0,80; Kịp thời: Tốt ≥ 0,99, Tệ < 0,95; quy tắc ★: Tốt ≥ 0,999, Tệ < 0,99.
 
