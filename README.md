@@ -5,7 +5,7 @@
 ## Cấu trúc thư mục
 
 ```
-dq/
+DS317-Project/
 ├── README.md                     <- Mục đích, cách chạy, định nghĩa độ đo
 ├── danh_gia_cldl.py              <- Code: quy tắc từng bảng, hàm kiểm tra, tính điểm, sinh báo cáo, tự kiểm
 ├── requirements.txt              <- Thư viện cần cài
