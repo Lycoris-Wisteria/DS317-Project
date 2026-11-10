@@ -44,7 +44,7 @@ $$
 ## 2. Điểm và xếp hạng
 
 $$
-S_r = 1-\frac{\#\text{False}}{\#\text{True}+\#\text{False}}\ (1)\qquad S_{t,d}=\frac{1}{|R_{t,d}|}\sum_{r\in R_{t,d}}S_r\ (2)\qquad \mathrm{flag}_{t,d}=\exists r\in R_{t,d}:\ r\ \text{là ★},\ S_r<\theta^\star_{bad}\ (3)
+S_r = 1-\frac{{False}}{{True}+{False}}\ (1)\qquad S_{t,d}=\frac{1}{|R_{t,d}|}\sum_{r\in R_{t,d}}S_r\ (2)\qquad \mathrm{flag}_{t,d}=\exists r\in R_{t,d}:\ r\ \text{là ★},\ S_r<\theta^\star_{bad}\ (3)
 $$
 
 Where: $R_{t,d}$ = quy tắc xếp hạng (★ hoặc thường) của khía cạnh $d$ trong bảng $t$ có ô được xét; quy tắc *chỉ báo cáo* (C7, C8, S6, T4) không vào $R$. Cờ ⚑ báo vấn đề của quy tắc ★ dù điểm trung bình cao.
